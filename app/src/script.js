@@ -16,8 +16,13 @@ api.store(
         break
       case 'Subscribe':
         console.log(event)
-        const subscription = {subscriber: event.returnValues.subscriber, units: event.returnValues.units}
-        newState = { ...state, subscriptions: [subscription].concat(state.subscriptions) }
+        const subscription = {
+          subscriber: event.returnValues.subscriber,
+          start: parseInt(event.returnValues.start),
+          duration: parseInt(event.returnValues.duration),
+          purchaser: event.returnValues.purchaser
+        }
+        newState = { ...state, subscriptions: state.subscriptions.concat(subscription) }
         break
       default:
         newState = state
@@ -27,7 +32,11 @@ api.store(
   },
   {
     init: async function(){
-      return { subscriptions: [] }
+      return {
+        subscriptions: [],
+        price: await api.call("price").toPromise(),
+        duration: await api.call("duration").toPromise()
+      }
     }
   }
 )

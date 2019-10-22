@@ -61,7 +61,6 @@ contract Template is TemplateBase {
     }
 
     function newInstance() public {
-    /* function newInstance() public { */
         Kernel dao = fac.newDAO(this);
         ACL acl = ACL(dao.acl());
         acl.createPermission(this, dao, dao.APP_MANAGER_ROLE(), this);
@@ -81,6 +80,9 @@ contract Template is TemplateBase {
         emit InstalledApp(tokenManager, tokenManagerAppId);
         subscription.initialize(tokenManager, 1e18, 30 days);
         emit InstalledApp(subscription, subscriptionAppId);
+
+        acl.createPermission(root, subscription, subscription.SET_PRICE_ROLE(), root);
+        acl.createPermission(root, subscription, subscription.SET_DURATION_ROLE(), root);
 
         acl.createPermission(subscription, tokenManager, tokenManager.BURN_ROLE(), root);
         acl.createPermission(this, tokenManager, tokenManager.MINT_ROLE(), this);
