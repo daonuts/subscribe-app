@@ -8,7 +8,6 @@
 		"@aragon/apps-shared-minime": "^1.0.2",
 		"@aragon/apps-token-manager": "^2.1.0",
 		"@aragon/os": "^4.3.0",
-		"@aragon/templates-shared": "^1.0.0",
 		"@aragon/ui": "^1.0.0-alpha.28",
 		"bignumber.js": "^9.0.0",
 		"core-js": "^3.1.4",

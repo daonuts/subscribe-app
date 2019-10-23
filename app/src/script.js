@@ -18,11 +18,10 @@ api.store(
         console.log(event)
         const subscription = {
           subscriber: event.returnValues.subscriber,
-          start: parseInt(event.returnValues.start),
-          duration: parseInt(event.returnValues.duration),
+          expiration: new Date(parseInt(event.returnValues.expiration)*1000),
           purchaser: event.returnValues.purchaser
         }
-        newState = { ...state, subscriptions: state.subscriptions.concat(subscription) }
+        newState = { ...state, subscriptions: [subscription].concat(state.subscriptions) }
         break
       default:
         newState = state

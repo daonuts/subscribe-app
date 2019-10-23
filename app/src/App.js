@@ -24,23 +24,25 @@ function App() {
     duration && !newDuration && setNewDuration(duration)
   }, [connectedAccount, price, duration])
 
-  const [ ending, setEnding ] = useState()
+  const [ subscription, setSubscription ] = useState()
   useEffect(()=>{
     // console.log(subscriptions)
-    let mysubs = subscriptions.filter(({subscriber})=>subscriber===connectedAccount)
-    console.log(mysubs)
-    let end = mysubs.reduce((p,c)=>{
-      const start = c.start > p ? c.start : p
-      return start + c.duration
-    }, 0)
-    console.log(end)
-    setEnding(end);
+    // let mysubs = subscriptions.filter(({subscriber})=>subscriber===connectedAccount)
+    // console.log(mysubs)
+    // let end = mysubs.reduce((p,c)=>{
+    //   const start = c.start > p ? c.start : p
+    //   return start + c.duration
+    // }, 0)
+    // console.log(end)
+    // setEnding(end);
+    let sub = subscriptions.find(({subscriber})=>subscriber===connectedAccount)
+    setSubscription(sub)
   }, [subscriptions])
 
   return (
     <Main>
       <Header primary="Special Membership" secondary={<Button label="Admin" onClick={()=>{setAdmin(true)}} />} />
-      {isFuture(ending) ? <Text>{`Special Membership active and expiring ${new Date(ending*1000)}`}</Text> : <Text>No active Special Membership subscription</Text>}
+      {subscription && isFuture(subscription.expiration) ? <Text>{`Special Membership active and expiring ${subscription.expiration}`}</Text> : <Text>No active Special Membership subscription</Text>}
       <Field label="Number of subscription units:">
         <input type="number" value={units} onChange={(e)=>setUnits(e.target.value)} />
       </Field>
@@ -71,8 +73,8 @@ function getTimeRemaining({start,duration}){
   return remaining > 0 ? remaining : 0
 }
 
-function isFuture(timeSec){
-  return timeSec*1000 > new Date()
+function isFuture(time){
+  return time > new Date()
 }
 
 export default App
