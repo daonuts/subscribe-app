@@ -1,5 +1,15 @@
 {
   "roles": [
+    {
+      "name": "Set subscription unit price",
+      "id": "SET_PRICE_ROLE",
+      "params": ["Price"]
+    },
+    {
+      "name": "Set subscription unit duration",
+      "id": "SET_DURATION_ROLE",
+      "params": ["Duration"]
+    }
   ],
   "environments": {
     "default": {

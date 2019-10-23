@@ -12,6 +12,7 @@
 		"@aragon/ui": "^1.0.0-alpha.28",
 		"bignumber.js": "^9.0.0",
 		"core-js": "^3.1.4",
+		"ethers": "^4.0.38",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"regenerator-runtime": "^0.13.2",
