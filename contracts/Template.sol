@@ -53,6 +53,7 @@ contract TemplateBase is APMNamehash {
 contract Template is TemplateBase {
     MiniMeTokenFactory tokenFactory;
 
+    uint constant TOKEN_UNIT = 10 ** 18;
     uint64 constant PCT = 10 ** 16;
     address constant ANY_ENTITY = address(-1);
 
@@ -78,7 +79,7 @@ contract Template is TemplateBase {
         // Initialize apps
         tokenManager.initialize(token, true, 0);
         emit InstalledApp(tokenManager, tokenManagerAppId);
-        subscribe.initialize(tokenManager, 1e18, 30 days);
+        subscribe.initialize(tokenManager, 1 * TOKEN_UNIT, 30 days);
         emit InstalledApp(subscribe, subscribeAppId);
 
         acl.createPermission(root, subscribe, subscribe.SET_PRICE_ROLE(), root);

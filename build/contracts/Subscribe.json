@@ -464,7 +464,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 167,
-        "sourceUnit": 5204,
+        "sourceUnit": 5211,
         "src": "26:49:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -475,7 +475,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 167,
-        "sourceUnit": 2572,
+        "sourceUnit": 2579,
         "src": "76:63:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -486,7 +486,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 167,
-        "sourceUnit": 8921,
+        "sourceUnit": 8928,
         "src": "140:54:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -500,10 +500,10 @@
               "id": 5,
               "name": "AragonApp",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5203,
+              "referencedDeclaration": 5210,
               "src": "218:9:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AragonApp_$5203",
+                "typeIdentifier": "t_contract$_AragonApp_$5210",
                 "typeString": "contract AragonApp"
               }
             },
@@ -513,21 +513,21 @@
           }
         ],
         "contractDependencies": [
-          4291,
-          5079,
-          5203,
-          5216,
-          5376,
-          5426,
-          5524,
-          5552,
-          5585,
-          5622,
-          5914,
-          6136,
-          6537,
-          6564,
-          7828
+          4298,
+          5086,
+          5210,
+          5223,
+          5383,
+          5433,
+          5531,
+          5559,
+          5592,
+          5629,
+          5921,
+          6143,
+          6544,
+          6571,
+          7835
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -535,21 +535,21 @@
         "id": 166,
         "linearizedBaseContracts": [
           166,
-          5203,
-          4291,
-          6537,
-          7828,
-          6564,
-          5622,
-          6136,
-          5552,
-          5376,
-          5426,
-          5216,
-          5585,
-          5524,
-          5914,
-          5079
+          5210,
+          4298,
+          6544,
+          7835,
+          6571,
+          5629,
+          6143,
+          5559,
+          5383,
+          5433,
+          5223,
+          5592,
+          5531,
+          5921,
+          5086
         ],
         "name": "Subscribe",
         "nodeType": "ContractDefinition",
@@ -561,10 +561,10 @@
               "id": 7,
               "name": "SafeMath64",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8920,
+              "referencedDeclaration": 8927,
               "src": "240:10:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath64_$8920",
+                "typeIdentifier": "t_contract$_SafeMath64_$8927",
                 "typeString": "library SafeMath64"
               }
             },
@@ -823,7 +823,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_TokenManager_$2571",
+              "typeIdentifier": "t_contract$_TokenManager_$2578",
               "typeString": "contract TokenManager"
             },
             "typeName": {
@@ -831,10 +831,10 @@
               "id": 30,
               "name": "TokenManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2571,
+              "referencedDeclaration": 2578,
               "src": "498:12:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TokenManager_$2571",
+                "typeIdentifier": "t_contract$_TokenManager_$2578",
                 "typeString": "contract TokenManager"
               }
             },
@@ -942,7 +942,7 @@
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 9017,
+                "referencedDeclaration": 9024,
                 "src": "641:9:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -1021,7 +1021,7 @@
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 9017,
+                "referencedDeclaration": 9024,
                 "src": "718:9:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -1060,7 +1060,7 @@
                       "name": "initialized",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5509,
+                      "referencedDeclaration": 5516,
                       "src": "860:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -1102,7 +1102,7 @@
                       "referencedDeclaration": 31,
                       "src": "883:12:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenManager_$2571",
+                        "typeIdentifier": "t_contract$_TokenManager_$2578",
                         "typeString": "contract TokenManager"
                       }
                     },
@@ -1117,13 +1117,13 @@
                       "referencedDeclaration": 47,
                       "src": "898:13:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenManager_$2571",
+                        "typeIdentifier": "t_contract$_TokenManager_$2578",
                         "typeString": "contract TokenManager"
                       }
                     },
                     "src": "883:28:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenManager_$2571",
+                      "typeIdentifier": "t_contract$_TokenManager_$2578",
                       "typeString": "contract TokenManager"
                     }
                   },
@@ -1240,7 +1240,7 @@
                   "name": "onlyInit",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5456,
+                  "referencedDeclaration": 5463,
                   "src": "834:8:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1267,7 +1267,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_TokenManager_$2571",
+                    "typeIdentifier": "t_contract$_TokenManager_$2578",
                     "typeString": "contract TokenManager"
                   },
                   "typeName": {
@@ -1275,10 +1275,10 @@
                     "id": 46,
                     "name": "TokenManager",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2571,
+                    "referencedDeclaration": 2578,
                     "src": "775:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenManager_$2571",
+                      "typeIdentifier": "t_contract$_TokenManager_$2578",
                       "typeString": "contract TokenManager"
                     }
                   },
@@ -1371,7 +1371,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 9023,
+                          "referencedDeclaration": 9030,
                           "src": "1068:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1458,7 +1458,7 @@
                         "referencedDeclaration": 31,
                         "src": "1050:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2571",
+                          "typeIdentifier": "t_contract$_TokenManager_$2578",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -1469,7 +1469,7 @@
                       "lValueRequested": false,
                       "memberName": "burn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1976,
+                      "referencedDeclaration": 1983,
                       "src": "1050:17:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -1536,7 +1536,7 @@
                         "name": "now",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9025,
+                        "referencedDeclaration": 9032,
                         "src": "1125:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1867,7 +1867,7 @@
                             "lValueRequested": false,
                             "memberName": "mul",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 8823,
+                            "referencedDeclaration": 8830,
                             "src": "1267:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint64_$_t_uint64_$returns$_t_uint64_$bound_to$_t_uint64_$",
@@ -1916,7 +1916,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 8898,
+                        "referencedDeclaration": 8905,
                         "src": "1257:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint64_$_t_uint64_$returns$_t_uint64_$bound_to$_t_uint64_$",
@@ -1972,7 +1972,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 9023,
+                          "referencedDeclaration": 9030,
                           "src": "1334:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2297,7 +2297,7 @@
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5123,
+                  "referencedDeclaration": 5130,
                   "src": "1415:4:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_bytes32_$",
@@ -2493,7 +2493,7 @@
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5123,
+                  "referencedDeclaration": 5130,
                   "src": "1552:4:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_bytes32_$",
@@ -2586,7 +2586,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 167,
-        "sourceUnit": 5204,
+        "sourceUnit": 5211,
         "src": "26:49:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2597,7 +2597,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 167,
-        "sourceUnit": 2572,
+        "sourceUnit": 2579,
         "src": "76:63:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2608,7 +2608,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 167,
-        "sourceUnit": 8921,
+        "sourceUnit": 8928,
         "src": "140:54:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2622,10 +2622,10 @@
               "id": 5,
               "name": "AragonApp",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5203,
+              "referencedDeclaration": 5210,
               "src": "218:9:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AragonApp_$5203",
+                "typeIdentifier": "t_contract$_AragonApp_$5210",
                 "typeString": "contract AragonApp"
               }
             },
@@ -2635,21 +2635,21 @@
           }
         ],
         "contractDependencies": [
-          4291,
-          5079,
-          5203,
-          5216,
-          5376,
-          5426,
-          5524,
-          5552,
-          5585,
-          5622,
-          5914,
-          6136,
-          6537,
-          6564,
-          7828
+          4298,
+          5086,
+          5210,
+          5223,
+          5383,
+          5433,
+          5531,
+          5559,
+          5592,
+          5629,
+          5921,
+          6143,
+          6544,
+          6571,
+          7835
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -2657,21 +2657,21 @@
         "id": 166,
         "linearizedBaseContracts": [
           166,
-          5203,
-          4291,
-          6537,
-          7828,
-          6564,
-          5622,
-          6136,
-          5552,
-          5376,
-          5426,
-          5216,
-          5585,
-          5524,
-          5914,
-          5079
+          5210,
+          4298,
+          6544,
+          7835,
+          6571,
+          5629,
+          6143,
+          5559,
+          5383,
+          5433,
+          5223,
+          5592,
+          5531,
+          5921,
+          5086
         ],
         "name": "Subscribe",
         "nodeType": "ContractDefinition",
@@ -2683,10 +2683,10 @@
               "id": 7,
               "name": "SafeMath64",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8920,
+              "referencedDeclaration": 8927,
               "src": "240:10:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath64_$8920",
+                "typeIdentifier": "t_contract$_SafeMath64_$8927",
                 "typeString": "library SafeMath64"
               }
             },
@@ -2945,7 +2945,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_TokenManager_$2571",
+              "typeIdentifier": "t_contract$_TokenManager_$2578",
               "typeString": "contract TokenManager"
             },
             "typeName": {
@@ -2953,10 +2953,10 @@
               "id": 30,
               "name": "TokenManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2571,
+              "referencedDeclaration": 2578,
               "src": "498:12:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TokenManager_$2571",
+                "typeIdentifier": "t_contract$_TokenManager_$2578",
                 "typeString": "contract TokenManager"
               }
             },
@@ -3064,7 +3064,7 @@
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 9017,
+                "referencedDeclaration": 9024,
                 "src": "641:9:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -3143,7 +3143,7 @@
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 9017,
+                "referencedDeclaration": 9024,
                 "src": "718:9:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -3182,7 +3182,7 @@
                       "name": "initialized",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5509,
+                      "referencedDeclaration": 5516,
                       "src": "860:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -3224,7 +3224,7 @@
                       "referencedDeclaration": 31,
                       "src": "883:12:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenManager_$2571",
+                        "typeIdentifier": "t_contract$_TokenManager_$2578",
                         "typeString": "contract TokenManager"
                       }
                     },
@@ -3239,13 +3239,13 @@
                       "referencedDeclaration": 47,
                       "src": "898:13:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenManager_$2571",
+                        "typeIdentifier": "t_contract$_TokenManager_$2578",
                         "typeString": "contract TokenManager"
                       }
                     },
                     "src": "883:28:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenManager_$2571",
+                      "typeIdentifier": "t_contract$_TokenManager_$2578",
                       "typeString": "contract TokenManager"
                     }
                   },
@@ -3362,7 +3362,7 @@
                   "name": "onlyInit",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5456,
+                  "referencedDeclaration": 5463,
                   "src": "834:8:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3389,7 +3389,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_TokenManager_$2571",
+                    "typeIdentifier": "t_contract$_TokenManager_$2578",
                     "typeString": "contract TokenManager"
                   },
                   "typeName": {
@@ -3397,10 +3397,10 @@
                     "id": 46,
                     "name": "TokenManager",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2571,
+                    "referencedDeclaration": 2578,
                     "src": "775:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenManager_$2571",
+                      "typeIdentifier": "t_contract$_TokenManager_$2578",
                       "typeString": "contract TokenManager"
                     }
                   },
@@ -3493,7 +3493,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 9023,
+                          "referencedDeclaration": 9030,
                           "src": "1068:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -3580,7 +3580,7 @@
                         "referencedDeclaration": 31,
                         "src": "1050:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2571",
+                          "typeIdentifier": "t_contract$_TokenManager_$2578",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -3591,7 +3591,7 @@
                       "lValueRequested": false,
                       "memberName": "burn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1976,
+                      "referencedDeclaration": 1983,
                       "src": "1050:17:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -3658,7 +3658,7 @@
                         "name": "now",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9025,
+                        "referencedDeclaration": 9032,
                         "src": "1125:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3989,7 +3989,7 @@
                             "lValueRequested": false,
                             "memberName": "mul",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 8823,
+                            "referencedDeclaration": 8830,
                             "src": "1267:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint64_$_t_uint64_$returns$_t_uint64_$bound_to$_t_uint64_$",
@@ -4038,7 +4038,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 8898,
+                        "referencedDeclaration": 8905,
                         "src": "1257:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint64_$_t_uint64_$returns$_t_uint64_$bound_to$_t_uint64_$",
@@ -4094,7 +4094,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 9023,
+                          "referencedDeclaration": 9030,
                           "src": "1334:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -4419,7 +4419,7 @@
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5123,
+                  "referencedDeclaration": 5130,
                   "src": "1415:4:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_bytes32_$",
@@ -4615,7 +4615,7 @@
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5123,
+                  "referencedDeclaration": 5130,
                   "src": "1552:4:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_bytes32_$",
@@ -4687,5 +4687,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-10-23T23:23:39.719Z"
+  "updatedAt": "2019-10-23T23:39:43.233Z"
 }

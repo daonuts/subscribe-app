@@ -11,14 +11,14 @@
     "absolutePath": "@aragon/os/contracts/common/UnstructuredStorage.sol",
     "exportedSymbols": {
       "UnstructuredStorage": [
-        6020
+        6027
       ]
     },
-    "id": 6021,
+    "id": 6028,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5947,
+        "id": 5954,
         "literals": [
           "solidity",
           "^",
@@ -34,16 +34,16 @@
         "contractKind": "library",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 6020,
+        "id": 6027,
         "linearizedBaseContracts": [
-          6020
+          6027
         ],
         "name": "UnstructuredStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 5955,
+              "id": 5962,
               "nodeType": "Block",
               "src": "181:52:31",
               "statements": [
@@ -51,7 +51,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5952,
+                        "declaration": 5959,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "202:4:31",
@@ -60,7 +60,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5949,
+                        "declaration": 5956,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "216:8:31",
@@ -68,7 +68,7 @@
                       }
                     }
                   ],
-                  "id": 5954,
+                  "id": 5961,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "191:42:31"
@@ -76,7 +76,7 @@
               ]
             },
             "documentation": null,
-            "id": 5956,
+            "id": 5963,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -84,15 +84,15 @@
             "name": "getStorageBool",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5950,
+              "id": 5957,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5949,
+                  "id": 5956,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5956,
+                  "scope": 5963,
                   "src": "129:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -101,7 +101,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5948,
+                    "id": 5955,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "129:7:31",
@@ -118,15 +118,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5953,
+              "id": 5960,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5952,
+                  "id": 5959,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5956,
+                  "scope": 5963,
                   "src": "170:9:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -135,7 +135,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 5951,
+                    "id": 5958,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "170:4:31",
@@ -150,7 +150,7 @@
               ],
               "src": "169:11:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "105:128:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -158,7 +158,7 @@
           },
           {
             "body": {
-              "id": 5964,
+              "id": 5971,
               "nodeType": "Block",
               "src": "321:52:31",
               "statements": [
@@ -166,7 +166,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5961,
+                        "declaration": 5968,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "342:4:31",
@@ -175,7 +175,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5958,
+                        "declaration": 5965,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "356:8:31",
@@ -183,7 +183,7 @@
                       }
                     }
                   ],
-                  "id": 5963,
+                  "id": 5970,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "331:42:31"
@@ -191,7 +191,7 @@
               ]
             },
             "documentation": null,
-            "id": 5965,
+            "id": 5972,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -199,15 +199,15 @@
             "name": "getStorageAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5959,
+              "id": 5966,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5958,
+                  "id": 5965,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5965,
+                  "scope": 5972,
                   "src": "266:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -216,7 +216,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5957,
+                    "id": 5964,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "266:7:31",
@@ -233,15 +233,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5962,
+              "id": 5969,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5961,
+                  "id": 5968,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5965,
+                  "scope": 5972,
                   "src": "307:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -250,7 +250,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5960,
+                    "id": 5967,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "307:7:31",
@@ -265,7 +265,7 @@
               ],
               "src": "306:14:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "239:134:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -273,7 +273,7 @@
           },
           {
             "body": {
-              "id": 5973,
+              "id": 5980,
               "nodeType": "Block",
               "src": "461:52:31",
               "statements": [
@@ -281,7 +281,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5970,
+                        "declaration": 5977,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "482:4:31",
@@ -290,7 +290,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5967,
+                        "declaration": 5974,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "496:8:31",
@@ -298,7 +298,7 @@
                       }
                     }
                   ],
-                  "id": 5972,
+                  "id": 5979,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "471:42:31"
@@ -306,7 +306,7 @@
               ]
             },
             "documentation": null,
-            "id": 5974,
+            "id": 5981,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -314,15 +314,15 @@
             "name": "getStorageBytes32",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5968,
+              "id": 5975,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5967,
+                  "id": 5974,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5974,
+                  "scope": 5981,
                   "src": "406:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -331,7 +331,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5966,
+                    "id": 5973,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "406:7:31",
@@ -348,15 +348,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5971,
+              "id": 5978,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5970,
+                  "id": 5977,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5974,
+                  "scope": 5981,
                   "src": "447:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -365,7 +365,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5969,
+                    "id": 5976,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "447:7:31",
@@ -380,7 +380,7 @@
               ],
               "src": "446:14:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "379:134:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -388,7 +388,7 @@
           },
           {
             "body": {
-              "id": 5982,
+              "id": 5989,
               "nodeType": "Block",
               "src": "601:52:31",
               "statements": [
@@ -396,7 +396,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5979,
+                        "declaration": 5986,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "622:4:31",
@@ -405,7 +405,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5976,
+                        "declaration": 5983,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "636:8:31",
@@ -413,7 +413,7 @@
                       }
                     }
                   ],
-                  "id": 5981,
+                  "id": 5988,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "611:42:31"
@@ -421,7 +421,7 @@
               ]
             },
             "documentation": null,
-            "id": 5983,
+            "id": 5990,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -429,15 +429,15 @@
             "name": "getStorageUint256",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5977,
+              "id": 5984,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5976,
+                  "id": 5983,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5983,
+                  "scope": 5990,
                   "src": "546:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -446,7 +446,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5975,
+                    "id": 5982,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "546:7:31",
@@ -463,15 +463,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5980,
+              "id": 5987,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5979,
+                  "id": 5986,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5983,
+                  "scope": 5990,
                   "src": "587:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -480,7 +480,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5978,
+                    "id": 5985,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "587:7:31",
@@ -495,7 +495,7 @@
               ],
               "src": "586:14:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "519:134:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -503,7 +503,7 @@
           },
           {
             "body": {
-              "id": 5991,
+              "id": 5998,
               "nodeType": "Block",
               "src": "721:51:31",
               "statements": [
@@ -511,7 +511,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 5985,
+                        "declaration": 5992,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "749:8:31",
@@ -520,7 +520,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 5987,
+                        "declaration": 5994,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "759:4:31",
@@ -528,7 +528,7 @@
                       }
                     }
                   ],
-                  "id": 5990,
+                  "id": 5997,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "731:41:31"
@@ -536,7 +536,7 @@
               ]
             },
             "documentation": null,
-            "id": 5992,
+            "id": 5999,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -544,15 +544,15 @@
             "name": "setStorageBool",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5988,
+              "id": 5995,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5985,
+                  "id": 5992,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5992,
+                  "scope": 5999,
                   "src": "683:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -561,7 +561,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5984,
+                    "id": 5991,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "683:7:31",
@@ -575,10 +575,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 5987,
+                  "id": 5994,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5992,
+                  "scope": 5999,
                   "src": "701:9:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -587,7 +587,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 5986,
+                    "id": 5993,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "701:4:31",
@@ -604,12 +604,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5989,
+              "id": 5996,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "721:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "659:113:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -617,7 +617,7 @@
           },
           {
             "body": {
-              "id": 6000,
+              "id": 6007,
               "nodeType": "Block",
               "src": "846:51:31",
               "statements": [
@@ -625,7 +625,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 5994,
+                        "declaration": 6001,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "874:8:31",
@@ -634,7 +634,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 5996,
+                        "declaration": 6003,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "884:4:31",
@@ -642,7 +642,7 @@
                       }
                     }
                   ],
-                  "id": 5999,
+                  "id": 6006,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "856:41:31"
@@ -650,7 +650,7 @@
               ]
             },
             "documentation": null,
-            "id": 6001,
+            "id": 6008,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -658,15 +658,15 @@
             "name": "setStorageAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5997,
+              "id": 6004,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5994,
+                  "id": 6001,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6001,
+                  "scope": 6008,
                   "src": "805:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -675,7 +675,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5993,
+                    "id": 6000,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "805:7:31",
@@ -689,10 +689,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 5996,
+                  "id": 6003,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6001,
+                  "scope": 6008,
                   "src": "823:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -701,7 +701,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5995,
+                    "id": 6002,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "823:7:31",
@@ -718,12 +718,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5998,
+              "id": 6005,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "846:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "778:119:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -731,7 +731,7 @@
           },
           {
             "body": {
-              "id": 6009,
+              "id": 6016,
               "nodeType": "Block",
               "src": "971:51:31",
               "statements": [
@@ -739,7 +739,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 6003,
+                        "declaration": 6010,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "999:8:31",
@@ -748,7 +748,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 6005,
+                        "declaration": 6012,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1009:4:31",
@@ -756,7 +756,7 @@
                       }
                     }
                   ],
-                  "id": 6008,
+                  "id": 6015,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "981:41:31"
@@ -764,7 +764,7 @@
               ]
             },
             "documentation": null,
-            "id": 6010,
+            "id": 6017,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -772,15 +772,15 @@
             "name": "setStorageBytes32",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6006,
+              "id": 6013,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6003,
+                  "id": 6010,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6010,
+                  "scope": 6017,
                   "src": "930:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -789,7 +789,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6002,
+                    "id": 6009,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "930:7:31",
@@ -803,10 +803,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 6005,
+                  "id": 6012,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6010,
+                  "scope": 6017,
                   "src": "948:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -815,7 +815,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6004,
+                    "id": 6011,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "948:7:31",
@@ -832,12 +832,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 6007,
+              "id": 6014,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "971:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "903:119:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -845,7 +845,7 @@
           },
           {
             "body": {
-              "id": 6018,
+              "id": 6025,
               "nodeType": "Block",
               "src": "1096:51:31",
               "statements": [
@@ -853,7 +853,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 6012,
+                        "declaration": 6019,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1124:8:31",
@@ -862,7 +862,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 6014,
+                        "declaration": 6021,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1134:4:31",
@@ -870,7 +870,7 @@
                       }
                     }
                   ],
-                  "id": 6017,
+                  "id": 6024,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "1106:41:31"
@@ -878,7 +878,7 @@
               ]
             },
             "documentation": null,
-            "id": 6019,
+            "id": 6026,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -886,15 +886,15 @@
             "name": "setStorageUint256",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6015,
+              "id": 6022,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6012,
+                  "id": 6019,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6019,
+                  "scope": 6026,
                   "src": "1055:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -903,7 +903,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6011,
+                    "id": 6018,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "1055:7:31",
@@ -917,10 +917,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 6014,
+                  "id": 6021,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6019,
+                  "scope": 6026,
                   "src": "1073:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -929,7 +929,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 6013,
+                    "id": 6020,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1073:7:31",
@@ -946,19 +946,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 6016,
+              "id": 6023,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1096:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "1028:119:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 6021,
+        "scope": 6028,
         "src": "71:1078:31"
       }
     ],
@@ -968,14 +968,14 @@
     "absolutePath": "@aragon/os/contracts/common/UnstructuredStorage.sol",
     "exportedSymbols": {
       "UnstructuredStorage": [
-        6020
+        6027
       ]
     },
-    "id": 6021,
+    "id": 6028,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5947,
+        "id": 5954,
         "literals": [
           "solidity",
           "^",
@@ -991,16 +991,16 @@
         "contractKind": "library",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 6020,
+        "id": 6027,
         "linearizedBaseContracts": [
-          6020
+          6027
         ],
         "name": "UnstructuredStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 5955,
+              "id": 5962,
               "nodeType": "Block",
               "src": "181:52:31",
               "statements": [
@@ -1008,7 +1008,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5952,
+                        "declaration": 5959,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "202:4:31",
@@ -1017,7 +1017,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5949,
+                        "declaration": 5956,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "216:8:31",
@@ -1025,7 +1025,7 @@
                       }
                     }
                   ],
-                  "id": 5954,
+                  "id": 5961,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "191:42:31"
@@ -1033,7 +1033,7 @@
               ]
             },
             "documentation": null,
-            "id": 5956,
+            "id": 5963,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1041,15 +1041,15 @@
             "name": "getStorageBool",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5950,
+              "id": 5957,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5949,
+                  "id": 5956,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5956,
+                  "scope": 5963,
                   "src": "129:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1058,7 +1058,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5948,
+                    "id": 5955,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "129:7:31",
@@ -1075,15 +1075,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5953,
+              "id": 5960,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5952,
+                  "id": 5959,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5956,
+                  "scope": 5963,
                   "src": "170:9:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1092,7 +1092,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 5951,
+                    "id": 5958,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "170:4:31",
@@ -1107,7 +1107,7 @@
               ],
               "src": "169:11:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "105:128:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -1115,7 +1115,7 @@
           },
           {
             "body": {
-              "id": 5964,
+              "id": 5971,
               "nodeType": "Block",
               "src": "321:52:31",
               "statements": [
@@ -1123,7 +1123,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5961,
+                        "declaration": 5968,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "342:4:31",
@@ -1132,7 +1132,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5958,
+                        "declaration": 5965,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "356:8:31",
@@ -1140,7 +1140,7 @@
                       }
                     }
                   ],
-                  "id": 5963,
+                  "id": 5970,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "331:42:31"
@@ -1148,7 +1148,7 @@
               ]
             },
             "documentation": null,
-            "id": 5965,
+            "id": 5972,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1156,15 +1156,15 @@
             "name": "getStorageAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5959,
+              "id": 5966,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5958,
+                  "id": 5965,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5965,
+                  "scope": 5972,
                   "src": "266:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1173,7 +1173,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5957,
+                    "id": 5964,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "266:7:31",
@@ -1190,15 +1190,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5962,
+              "id": 5969,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5961,
+                  "id": 5968,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5965,
+                  "scope": 5972,
                   "src": "307:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1207,7 +1207,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5960,
+                    "id": 5967,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "307:7:31",
@@ -1222,7 +1222,7 @@
               ],
               "src": "306:14:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "239:134:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -1230,7 +1230,7 @@
           },
           {
             "body": {
-              "id": 5973,
+              "id": 5980,
               "nodeType": "Block",
               "src": "461:52:31",
               "statements": [
@@ -1238,7 +1238,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5970,
+                        "declaration": 5977,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "482:4:31",
@@ -1247,7 +1247,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5967,
+                        "declaration": 5974,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "496:8:31",
@@ -1255,7 +1255,7 @@
                       }
                     }
                   ],
-                  "id": 5972,
+                  "id": 5979,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "471:42:31"
@@ -1263,7 +1263,7 @@
               ]
             },
             "documentation": null,
-            "id": 5974,
+            "id": 5981,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1271,15 +1271,15 @@
             "name": "getStorageBytes32",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5968,
+              "id": 5975,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5967,
+                  "id": 5974,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5974,
+                  "scope": 5981,
                   "src": "406:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1288,7 +1288,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5966,
+                    "id": 5973,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "406:7:31",
@@ -1305,15 +1305,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5971,
+              "id": 5978,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5970,
+                  "id": 5977,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5974,
+                  "scope": 5981,
                   "src": "447:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1322,7 +1322,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5969,
+                    "id": 5976,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "447:7:31",
@@ -1337,7 +1337,7 @@
               ],
               "src": "446:14:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "379:134:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -1345,7 +1345,7 @@
           },
           {
             "body": {
-              "id": 5982,
+              "id": 5989,
               "nodeType": "Block",
               "src": "601:52:31",
               "statements": [
@@ -1353,7 +1353,7 @@
                   "externalReferences": [
                     {
                       "data": {
-                        "declaration": 5979,
+                        "declaration": 5986,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "622:4:31",
@@ -1362,7 +1362,7 @@
                     },
                     {
                       "position": {
-                        "declaration": 5976,
+                        "declaration": 5983,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "636:8:31",
@@ -1370,7 +1370,7 @@
                       }
                     }
                   ],
-                  "id": 5981,
+                  "id": 5988,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    data := sload(position)\n}",
                   "src": "611:42:31"
@@ -1378,7 +1378,7 @@
               ]
             },
             "documentation": null,
-            "id": 5983,
+            "id": 5990,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1386,15 +1386,15 @@
             "name": "getStorageUint256",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5977,
+              "id": 5984,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5976,
+                  "id": 5983,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5983,
+                  "scope": 5990,
                   "src": "546:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1403,7 +1403,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5975,
+                    "id": 5982,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "546:7:31",
@@ -1420,15 +1420,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5980,
+              "id": 5987,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5979,
+                  "id": 5986,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5983,
+                  "scope": 5990,
                   "src": "587:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1437,7 +1437,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5978,
+                    "id": 5985,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "587:7:31",
@@ -1452,7 +1452,7 @@
               ],
               "src": "586:14:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "519:134:31",
             "stateMutability": "view",
             "superFunction": null,
@@ -1460,7 +1460,7 @@
           },
           {
             "body": {
-              "id": 5991,
+              "id": 5998,
               "nodeType": "Block",
               "src": "721:51:31",
               "statements": [
@@ -1468,7 +1468,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 5985,
+                        "declaration": 5992,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "749:8:31",
@@ -1477,7 +1477,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 5987,
+                        "declaration": 5994,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "759:4:31",
@@ -1485,7 +1485,7 @@
                       }
                     }
                   ],
-                  "id": 5990,
+                  "id": 5997,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "731:41:31"
@@ -1493,7 +1493,7 @@
               ]
             },
             "documentation": null,
-            "id": 5992,
+            "id": 5999,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1501,15 +1501,15 @@
             "name": "setStorageBool",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5988,
+              "id": 5995,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5985,
+                  "id": 5992,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5992,
+                  "scope": 5999,
                   "src": "683:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1518,7 +1518,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5984,
+                    "id": 5991,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "683:7:31",
@@ -1532,10 +1532,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 5987,
+                  "id": 5994,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5992,
+                  "scope": 5999,
                   "src": "701:9:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1544,7 +1544,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 5986,
+                    "id": 5993,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "701:4:31",
@@ -1561,12 +1561,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5989,
+              "id": 5996,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "721:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "659:113:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1574,7 +1574,7 @@
           },
           {
             "body": {
-              "id": 6000,
+              "id": 6007,
               "nodeType": "Block",
               "src": "846:51:31",
               "statements": [
@@ -1582,7 +1582,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 5994,
+                        "declaration": 6001,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "874:8:31",
@@ -1591,7 +1591,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 5996,
+                        "declaration": 6003,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "884:4:31",
@@ -1599,7 +1599,7 @@
                       }
                     }
                   ],
-                  "id": 5999,
+                  "id": 6006,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "856:41:31"
@@ -1607,7 +1607,7 @@
               ]
             },
             "documentation": null,
-            "id": 6001,
+            "id": 6008,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1615,15 +1615,15 @@
             "name": "setStorageAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5997,
+              "id": 6004,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5994,
+                  "id": 6001,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6001,
+                  "scope": 6008,
                   "src": "805:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1632,7 +1632,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5993,
+                    "id": 6000,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "805:7:31",
@@ -1646,10 +1646,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 5996,
+                  "id": 6003,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6001,
+                  "scope": 6008,
                   "src": "823:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1658,7 +1658,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5995,
+                    "id": 6002,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "823:7:31",
@@ -1675,12 +1675,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 5998,
+              "id": 6005,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "846:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "778:119:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1688,7 +1688,7 @@
           },
           {
             "body": {
-              "id": 6009,
+              "id": 6016,
               "nodeType": "Block",
               "src": "971:51:31",
               "statements": [
@@ -1696,7 +1696,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 6003,
+                        "declaration": 6010,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "999:8:31",
@@ -1705,7 +1705,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 6005,
+                        "declaration": 6012,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1009:4:31",
@@ -1713,7 +1713,7 @@
                       }
                     }
                   ],
-                  "id": 6008,
+                  "id": 6015,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "981:41:31"
@@ -1721,7 +1721,7 @@
               ]
             },
             "documentation": null,
-            "id": 6010,
+            "id": 6017,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1729,15 +1729,15 @@
             "name": "setStorageBytes32",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6006,
+              "id": 6013,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6003,
+                  "id": 6010,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6010,
+                  "scope": 6017,
                   "src": "930:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1746,7 +1746,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6002,
+                    "id": 6009,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "930:7:31",
@@ -1760,10 +1760,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 6005,
+                  "id": 6012,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6010,
+                  "scope": 6017,
                   "src": "948:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1772,7 +1772,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6004,
+                    "id": 6011,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "948:7:31",
@@ -1789,12 +1789,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 6007,
+              "id": 6014,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "971:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "903:119:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1802,7 +1802,7 @@
           },
           {
             "body": {
-              "id": 6018,
+              "id": 6025,
               "nodeType": "Block",
               "src": "1096:51:31",
               "statements": [
@@ -1810,7 +1810,7 @@
                   "externalReferences": [
                     {
                       "position": {
-                        "declaration": 6012,
+                        "declaration": 6019,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1124:8:31",
@@ -1819,7 +1819,7 @@
                     },
                     {
                       "data": {
-                        "declaration": 6014,
+                        "declaration": 6021,
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1134:4:31",
@@ -1827,7 +1827,7 @@
                       }
                     }
                   ],
-                  "id": 6017,
+                  "id": 6024,
                   "nodeType": "InlineAssembly",
                   "operations": "{\n    sstore(position, data)\n}",
                   "src": "1106:41:31"
@@ -1835,7 +1835,7 @@
               ]
             },
             "documentation": null,
-            "id": 6019,
+            "id": 6026,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1843,15 +1843,15 @@
             "name": "setStorageUint256",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6015,
+              "id": 6022,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6012,
+                  "id": 6019,
                   "name": "position",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6019,
+                  "scope": 6026,
                   "src": "1055:16:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1860,7 +1860,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6011,
+                    "id": 6018,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "1055:7:31",
@@ -1874,10 +1874,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 6014,
+                  "id": 6021,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6019,
+                  "scope": 6026,
                   "src": "1073:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1886,7 +1886,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 6013,
+                    "id": 6020,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1073:7:31",
@@ -1903,19 +1903,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 6016,
+              "id": 6023,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1096:0:31"
             },
-            "scope": 6020,
+            "scope": 6027,
             "src": "1028:119:31",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 6021,
+        "scope": 6028,
         "src": "71:1078:31"
       }
     ],
@@ -1927,5 +1927,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-10-23T23:23:39.702Z"
+  "updatedAt": "2019-10-23T23:39:43.182Z"
 }
