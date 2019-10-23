@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 import "@aragon/os/contracts/apps/AragonApp.sol";
 import "@aragon/apps-token-manager/contracts/TokenManager.sol";
 
-contract Subscription is AragonApp {
+contract Subscribe is AragonApp {
 
     /// Events
     event Subscribe(address indexed subscriber, address purchaser, uint start, uint duration);
