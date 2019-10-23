@@ -1,4 +1,2 @@
-# airdrop
-An Aragon app for distributing tokens or reputation using a merkle airdrop.
-
-![Demo](demo.gif)
+# subscription
+An Aragon app for subscribing
