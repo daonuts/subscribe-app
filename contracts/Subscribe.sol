@@ -1,10 +1,11 @@
 pragma solidity ^0.4.24;
 
 import "@aragon/os/contracts/apps/AragonApp.sol";
-import "@aragon/apps-token-manager/contracts/TokenManager.sol";
+import "@aragon/os/contracts/common/IForwarder.sol";
 import "@aragon/os/contracts/lib/math/SafeMath64.sol";
+import "@aragon/apps-token-manager/contracts/TokenManager.sol";
 
-contract Subscribe is AragonApp {
+contract Subscribe is IForwarder, AragonApp {
     using SafeMath64 for uint64;
 
     /// Events
@@ -18,8 +19,11 @@ contract Subscribe is AragonApp {
     mapping(address => uint64) public expirations;
 
     /// ACL
+    /* bytes32 constant public SUBSCRIBE_ROLE = keccak256("SUBSCRIBE_ROLE"); */
     bytes32 constant public SET_PRICE_ROLE = keccak256("SET_PRICE_ROLE");
     bytes32 constant public SET_DURATION_ROLE = keccak256("SET_DURATION_ROLE");
+
+    string private constant ERROR_PERMISSION = "PERMISSION";
 
     function initialize(TokenManager _tokenManager, uint _price, uint64 _duration) onlyInit public {
         initialized();
@@ -28,6 +32,7 @@ contract Subscribe is AragonApp {
         duration = _duration;
     }
 
+    /* function subscribe(address _subscriber, uint16 _units) authP(SUBSCRIBE_ROLE, arr(_subscriber)) public { */
     function subscribe(address _subscriber, uint16 _units) public {
         tokenManager.burn(msg.sender, _units*price);
         uint64 start = uint64(now);
@@ -45,5 +50,29 @@ contract Subscribe is AragonApp {
     function setDuration(uint64 _duration) auth(SET_DURATION_ROLE) public {
         duration = _duration;
         emit DurationChange(duration);
+    }
+
+    /**
+    * @notice Execute action based on active subscription
+    * @dev IForwarder interface conformance
+    * @param _evmScript Start proposal with script
+    */
+    function forward(bytes _evmScript) public {
+        require(canForward(msg.sender, _evmScript), ERROR_PERMISSION);
+
+        // Add the tokenManager to the blacklist to disallow a subscriber from
+        // executing MINT/BURN on this contract's behalf
+        address[] memory blacklist = new address[](1);
+        blacklist[0] = address(tokenManager);
+
+        runScript(_evmScript, new bytes(0), blacklist);
+    }
+
+    function canForward(address _sender, bytes) public view returns (bool) {
+        return expirations[_sender] > uint64(now);
+    }
+
+    function isForwarder() public pure returns (bool) {
+        return true;
     }
 }

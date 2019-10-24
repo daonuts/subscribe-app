@@ -84,6 +84,7 @@ contract Template is TemplateBase {
 
         acl.createPermission(root, subscribe, subscribe.SET_PRICE_ROLE(), root);
         acl.createPermission(root, subscribe, subscribe.SET_DURATION_ROLE(), root);
+        /* acl.createPermission(ANY_ENTITY, subscribe, subscribe.SUBSCRIBE_ROLE(), root); */
 
         acl.createPermission(subscribe, tokenManager, tokenManager.BURN_ROLE(), root);
         acl.createPermission(this, tokenManager, tokenManager.MINT_ROLE(), this);

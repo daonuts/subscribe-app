@@ -85,14 +85,14 @@
     "absolutePath": "@aragon/apps-shared-minime/contracts/ITokenController.sol",
     "exportedSymbols": {
       "ITokenController": [
-        579
+        653
       ]
     },
-    "id": 580,
+    "id": 654,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 549,
+        "id": 623,
         "literals": [
           "solidity",
           "^",
@@ -108,9 +108,9 @@
         "contractKind": "interface",
         "documentation": "@dev The token controller contract must implement these functions",
         "fullyImplemented": false,
-        "id": 579,
+        "id": 653,
         "linearizedBaseContracts": [
-          579
+          653
         ],
         "name": "ITokenController",
         "nodeType": "ContractDefinition",
@@ -118,7 +118,7 @@
           {
             "body": null,
             "documentation": "@notice Called when `_owner` sends ether to the MiniMe Token contract\n @param _owner The address that sent the ether to create tokens\n @return True if the ether is accepted, false if it throws",
-            "id": 556,
+            "id": 630,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -126,15 +126,15 @@
             "name": "proxyPayment",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 552,
+              "id": 626,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 551,
+                  "id": 625,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 556,
+                  "scope": 630,
                   "src": "368:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -143,7 +143,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 550,
+                    "id": 624,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "368:7:2",
@@ -160,15 +160,15 @@
             },
             "payable": true,
             "returnParameters": {
-              "id": 555,
+              "id": 629,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 554,
+                  "id": 628,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 556,
+                  "scope": 630,
                   "src": "409:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -177,7 +177,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 553,
+                    "id": 627,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "409:4:2",
@@ -192,7 +192,7 @@
               ],
               "src": "408:6:2"
             },
-            "scope": 579,
+            "scope": 653,
             "src": "346:69:2",
             "stateMutability": "payable",
             "superFunction": null,
@@ -201,7 +201,7 @@
           {
             "body": null,
             "documentation": "@notice Notifies the controller about a token transfer allowing the\n  controller to react if desired\n @param _from The origin of the transfer\n @param _to The destination of the transfer\n @param _amount The amount of the transfer\n @return False if the controller does not authorize the transfer",
-            "id": 567,
+            "id": 641,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -209,15 +209,15 @@
             "name": "onTransfer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 563,
+              "id": 637,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 558,
+                  "id": 632,
                   "name": "_from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "778:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -226,7 +226,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 557,
+                    "id": 631,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "778:7:2",
@@ -240,10 +240,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 560,
+                  "id": 634,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "793:11:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -252,7 +252,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 559,
+                    "id": 633,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "793:7:2",
@@ -266,10 +266,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 562,
+                  "id": 636,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "806:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -278,7 +278,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 561,
+                    "id": 635,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "806:4:2",
@@ -295,15 +295,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 566,
+              "id": 640,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 565,
+                  "id": 639,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "837:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -312,7 +312,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 564,
+                    "id": 638,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "837:4:2",
@@ -327,7 +327,7 @@
               ],
               "src": "836:6:2"
             },
-            "scope": 579,
+            "scope": 653,
             "src": "758:85:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -336,7 +336,7 @@
           {
             "body": null,
             "documentation": "@notice Notifies the controller about an approval allowing the\n  controller to react if desired\n @param _owner The address that calls `approve()`\n @param _spender The spender in the `approve()` call\n @param _amount The amount in the `approve()` call\n @return False if the controller does not authorize the approval",
-            "id": 578,
+            "id": 652,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -344,15 +344,15 @@
             "name": "onApprove",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 574,
+              "id": 648,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 569,
+                  "id": 643,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1226:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -361,7 +361,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 568,
+                    "id": 642,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1226:7:2",
@@ -375,10 +375,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 571,
+                  "id": 645,
                   "name": "_spender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1242:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -387,7 +387,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 570,
+                    "id": 644,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1242:7:2",
@@ -401,10 +401,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 573,
+                  "id": 647,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1260:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -413,7 +413,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 572,
+                    "id": 646,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1260:4:2",
@@ -430,15 +430,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 577,
+              "id": 651,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 576,
+                  "id": 650,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1291:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -447,7 +447,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 575,
+                    "id": 649,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "1291:4:2",
@@ -462,14 +462,14 @@
               ],
               "src": "1290:6:2"
             },
-            "scope": 579,
+            "scope": 653,
             "src": "1207:90:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 580,
+        "scope": 654,
         "src": "98:1201:2"
       }
     ],
@@ -479,14 +479,14 @@
     "absolutePath": "@aragon/apps-shared-minime/contracts/ITokenController.sol",
     "exportedSymbols": {
       "ITokenController": [
-        579
+        653
       ]
     },
-    "id": 580,
+    "id": 654,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 549,
+        "id": 623,
         "literals": [
           "solidity",
           "^",
@@ -502,9 +502,9 @@
         "contractKind": "interface",
         "documentation": "@dev The token controller contract must implement these functions",
         "fullyImplemented": false,
-        "id": 579,
+        "id": 653,
         "linearizedBaseContracts": [
-          579
+          653
         ],
         "name": "ITokenController",
         "nodeType": "ContractDefinition",
@@ -512,7 +512,7 @@
           {
             "body": null,
             "documentation": "@notice Called when `_owner` sends ether to the MiniMe Token contract\n @param _owner The address that sent the ether to create tokens\n @return True if the ether is accepted, false if it throws",
-            "id": 556,
+            "id": 630,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -520,15 +520,15 @@
             "name": "proxyPayment",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 552,
+              "id": 626,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 551,
+                  "id": 625,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 556,
+                  "scope": 630,
                   "src": "368:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -537,7 +537,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 550,
+                    "id": 624,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "368:7:2",
@@ -554,15 +554,15 @@
             },
             "payable": true,
             "returnParameters": {
-              "id": 555,
+              "id": 629,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 554,
+                  "id": 628,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 556,
+                  "scope": 630,
                   "src": "409:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -571,7 +571,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 553,
+                    "id": 627,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "409:4:2",
@@ -586,7 +586,7 @@
               ],
               "src": "408:6:2"
             },
-            "scope": 579,
+            "scope": 653,
             "src": "346:69:2",
             "stateMutability": "payable",
             "superFunction": null,
@@ -595,7 +595,7 @@
           {
             "body": null,
             "documentation": "@notice Notifies the controller about a token transfer allowing the\n  controller to react if desired\n @param _from The origin of the transfer\n @param _to The destination of the transfer\n @param _amount The amount of the transfer\n @return False if the controller does not authorize the transfer",
-            "id": 567,
+            "id": 641,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -603,15 +603,15 @@
             "name": "onTransfer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 563,
+              "id": 637,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 558,
+                  "id": 632,
                   "name": "_from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "778:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -620,7 +620,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 557,
+                    "id": 631,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "778:7:2",
@@ -634,10 +634,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 560,
+                  "id": 634,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "793:11:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -646,7 +646,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 559,
+                    "id": 633,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "793:7:2",
@@ -660,10 +660,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 562,
+                  "id": 636,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "806:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -672,7 +672,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 561,
+                    "id": 635,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "806:4:2",
@@ -689,15 +689,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 566,
+              "id": 640,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 565,
+                  "id": 639,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 567,
+                  "scope": 641,
                   "src": "837:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -706,7 +706,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 564,
+                    "id": 638,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "837:4:2",
@@ -721,7 +721,7 @@
               ],
               "src": "836:6:2"
             },
-            "scope": 579,
+            "scope": 653,
             "src": "758:85:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -730,7 +730,7 @@
           {
             "body": null,
             "documentation": "@notice Notifies the controller about an approval allowing the\n  controller to react if desired\n @param _owner The address that calls `approve()`\n @param _spender The spender in the `approve()` call\n @param _amount The amount in the `approve()` call\n @return False if the controller does not authorize the approval",
-            "id": 578,
+            "id": 652,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -738,15 +738,15 @@
             "name": "onApprove",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 574,
+              "id": 648,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 569,
+                  "id": 643,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1226:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -755,7 +755,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 568,
+                    "id": 642,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1226:7:2",
@@ -769,10 +769,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 571,
+                  "id": 645,
                   "name": "_spender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1242:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -781,7 +781,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 570,
+                    "id": 644,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1242:7:2",
@@ -795,10 +795,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 573,
+                  "id": 647,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1260:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -807,7 +807,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 572,
+                    "id": 646,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1260:4:2",
@@ -824,15 +824,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 577,
+              "id": 651,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 576,
+                  "id": 650,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 578,
+                  "scope": 652,
                   "src": "1291:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -841,7 +841,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 575,
+                    "id": 649,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "1291:4:2",
@@ -856,14 +856,14 @@
               ],
               "src": "1290:6:2"
             },
-            "scope": 579,
+            "scope": 653,
             "src": "1207:90:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 580,
+        "scope": 654,
         "src": "98:1201:2"
       }
     ],
@@ -875,5 +875,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-10-23T23:39:43.167Z"
+  "updatedAt": "2019-10-24T13:11:30.385Z"
 }
