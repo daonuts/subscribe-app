@@ -95,7 +95,7 @@
   ],
   "bytecode": "0x608060405234801561001057600080fd5b50604051604080610aaf83398101806040528101908080519060200190929190805190602001909291905050506000816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614156101fe576101016040805190810160405280600881526020017f626172652d6b6974000000000000000000000000000000000000000000000000815250610248640100000000026401000000009004565b905061011b81610370640100000000026401000000009004565b73ffffffffffffffffffffffffffffffffffffffff1663c3b314726040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401602060405180830381600087803b15801561017e57600080fd5b505af1158015610192573d6000803e3d6000fd5b505050506040513d60208110156101a857600080fd5b8101908080519060200190929190505050600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610240565b82600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b50505061060f565b60007f9065c3e7f7b7ef1ef4e53d2d0b8e0cef02874ab020c1ece79d5f0d3d0111c0ba600102826040518082805190602001908083835b6020831015156102a4578051825260208201915060208101905060208303925061027f565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405180910390206040516020018083600019166000191681526020018260001916600019168152602001925050506040516020818303038152906040526040518082805190602001908083835b60208310151561033c5780518252602082019150602081019050602083039250610317565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405180910390209050919050565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16630178b8bf846040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808260001916600019168152602001915050602060405180830381600087803b15801561040b57600080fd5b505af115801561041f573d6000803e3d6000fd5b505050506040513d602081101561043557600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff16633b3b57de846040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808260001916600019168152602001915050602060405180830381600087803b1580156104bc57600080fd5b505af11580156104d0573d6000803e3d6000fd5b505050506040513d60208110156104e657600080fd5b810190808051906020019092919050505090508073ffffffffffffffffffffffffffffffffffffffff1663c36af4606040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b15801561055d57600080fd5b505af1158015610571573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060a081101561059b57600080fd5b810190809190826060018051906020019092919080516401000000008111156105c357600080fd5b828101905060208101848111156105d957600080fd5b81518560018202830111640100000000821117156105f657600080fd5b5050929190505050909150508092505081915050919050565b6104918061061e6000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680633f15457f1461005c578063c3b31472146100b3578063c6d2c7171461010a575b600080fd5b34801561006857600080fd5b5061007161017b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100bf57600080fd5b506100c86101a0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561011657600080fd5b5061013960048036038101908080356000191690602001909291905050506101c6565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16630178b8bf846040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808260001916600019168152602001915050602060405180830381600087803b15801561026157600080fd5b505af1158015610275573d6000803e3d6000fd5b505050506040513d602081101561028b57600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff16633b3b57de846040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808260001916600019168152602001915050602060405180830381600087803b15801561031257600080fd5b505af1158015610326573d6000803e3d6000fd5b505050506040513d602081101561033c57600080fd5b810190808051906020019092919050505090508073ffffffffffffffffffffffffffffffffffffffff1663c36af4606040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156103b357600080fd5b505af11580156103c7573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060a08110156103f157600080fd5b8101908091908260600180519060200190929190805164010000000081111561041957600080fd5b8281019050602081018481111561042f57600080fd5b815185600182028301116401000000008211171561044c57600080fd5b50509291905050509091505080925050819150509190505600a165627a7a72305820648d20e1e1bf86c673b8e9b0fbf65ec0c62edf3a01a7274822ac0aa063ee628c0029",
   "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680633f15457f1461005c578063c3b31472146100b3578063c6d2c7171461010a575b600080fd5b34801561006857600080fd5b5061007161017b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100bf57600080fd5b506100c86101a0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561011657600080fd5b5061013960048036038101908080356000191690602001909291905050506101c6565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16630178b8bf846040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808260001916600019168152602001915050602060405180830381600087803b15801561026157600080fd5b505af1158015610275573d6000803e3d6000fd5b505050506040513d602081101561028b57600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff16633b3b57de846040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808260001916600019168152602001915050602060405180830381600087803b15801561031257600080fd5b505af1158015610326573d6000803e3d6000fd5b505050506040513d602081101561033c57600080fd5b810190808051906020019092919050505090508073ffffffffffffffffffffffffffffffffffffffff1663c36af4606040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156103b357600080fd5b505af11580156103c7573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060a08110156103f157600080fd5b8101908091908260600180519060200190929190805164010000000081111561041957600080fd5b8281019050602081018481111561042f57600080fd5b815185600182028301116401000000008211171561044c57600080fd5b50509291905050509091505080925050819150509190505600a165627a7a72305820648d20e1e1bf86c673b8e9b0fbf65ec0c62edf3a01a7274822ac0aa063ee628c0029",
-  "sourceMap": "773:770:1:-;;;956:358;8:9:-1;5:2;;;30:1;27;20:12;5:2;956:358:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1146:15;1018:4;1012:3;;:10;;;;;;;;;;;;;;;;;;1128:1;1103:27;;1111:4;1103:27;;;1099:209;;;1164:23;;;;;;;;;;;;;;;;;;;:11;;;:23;;;:::i;:::-;1146:41;;1220:29;1241:7;1220:20;;;:29;;;:::i;:::-;1207:47;;;:49;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1207:49:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1207:49:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1207:49:1;;;;;;;;;;;;;;;;1201:3;;:55;;;;;;;;;;;;;;;;;;1099:209;;;1293:4;1287:3;;:10;;;;;;;;;;;;;;;;;;1099:209;956:358;;;773:770;;379:151:9;436:7;306:66;489:8;;515:4;499:22;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;499:22:9;;;;;;;;;;;;;;;;472:50;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;472:50:9;;;462:61;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;462:61:9;;;;;;;;;;;;;;;;455:68;;379:151;;;:::o;1320:221:1:-;1386:12;1410:9;1442:3;;;;;;;;;;;:12;;;1455:5;1442:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1442:19:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1442:19:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1442:19:1;;;;;;;;;;;;;;;;1427:40;;;1468:5;1427:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1427:47:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1427:47:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1427:47:1;;;;;;;;;;;;;;;;1410:65;;1496:4;:14;;;:16;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1496:16:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1496:16:1;;;;;;39::-1;36:1;17:17;2:54;1496:16:1;101:4:-1;97:9;90:4;84;80:15;76:31;69:5;65:43;126:6;120:4;113:20;0:138;13:3;8;5:12;2:2;;;30:1;27;20:12;2:2;1496:16:1;;;;;;;;;;;;;;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;1496:16:1;;;;;;1485:27;;;;;;;;1530:4;1523:11;;1320:221;;;;:::o;773:770::-;;;;;;;",
+  "sourceMap": "773:770:1:-;;;956:358;8:9:-1;5:2;;;30:1;27;20:12;5:2;956:358:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1146:15;1018:4;1012:3;;:10;;;;;;;;;;;;;;;;;;1128:1;1103:27;;1111:4;1103:27;;;1099:209;;;1164:23;;;;;;;;;;;;;;;;;;;:11;;;:23;;;:::i;:::-;1146:41;;1220:29;1241:7;1220:20;;;:29;;;:::i;:::-;1207:47;;;:49;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1207:49:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1207:49:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1207:49:1;;;;;;;;;;;;;;;;1201:3;;:55;;;;;;;;;;;;;;;;;;1099:209;;;1293:4;1287:3;;:10;;;;;;;;;;;;;;;;;;1099:209;956:358;;;773:770;;379:151:10;436:7;306:66;489:8;;515:4;499:22;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;499:22:10;;;;;;;;;;;;;;;;472:50;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;472:50:10;;;462:61;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;462:61:10;;;;;;;;;;;;;;;;455:68;;379:151;;;:::o;1320:221:1:-;1386:12;1410:9;1442:3;;;;;;;;;;;:12;;;1455:5;1442:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1442:19:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1442:19:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1442:19:1;;;;;;;;;;;;;;;;1427:40;;;1468:5;1427:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1427:47:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1427:47:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1427:47:1;;;;;;;;;;;;;;;;1410:65;;1496:4;:14;;;:16;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1496:16:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1496:16:1;;;;;;39::-1;36:1;17:17;2:54;1496:16:1;101:4:-1;97:9;90:4;84;80:15;76:31;69:5;65:43;126:6;120:4;113:20;0:138;13:3;8;5:12;2:2;;;30:1;27;20:12;2:2;1496:16:1;;;;;;;;;;;;;;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;1496:16:1;;;;;;1485:27;;;;;;;;1530:4;1523:11;;1320:221;;;;:::o;773:770::-;;;;;;;",
   "deployedSourceMap": "773:770:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;816:14;;8:9:-1;5:2;;;30:1;27;20:12;5:2;816:14:1;;;;;;;;;;;;;;;;;;;;;;;;;;;836:21;;8:9:-1;5:2;;;30:1;27;20:12;5:2;836:21:1;;;;;;;;;;;;;;;;;;;;;;;;;;;1320:221;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1320:221:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;816:14;;;;;;;;;;;;;:::o;836:21::-;;;;;;;;;;;;;:::o;1320:221::-;1386:12;1410:9;1442:3;;;;;;;;;;;:12;;;1455:5;1442:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1442:19:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1442:19:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1442:19:1;;;;;;;;;;;;;;;;1427:40;;;1468:5;1427:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1427:47:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1427:47:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1427:47:1;;;;;;;;;;;;;;;;1410:65;;1496:4;:14;;;:16;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1496:16:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1496:16:1;;;;;;39::-1;36:1;17:17;2:54;1496:16:1;101:4:-1;97:9;90:4;84;80:15;76:31;69:5;65:43;126:6;120:4;113:20;0:138;13:3;8;5:12;2:2;;;30:1;27;20:12;2:2;1496:16:1;;;;;;;;;;;;;;;;;;;;20:11:-1;15:3;12:20;9:2;;;45:1;42;35:12;9:2;73:11;68:3;64:21;57:28;;126:4;121:3;117:14;163:9;145:16;142:31;139:2;;;186:1;183;176:12;139:2;224:3;218:10;338:9;333:1;319:12;315:20;297:16;293:43;290:58;268:11;254:12;251:29;239:118;236:2;;;370:1;367;360:12;236:2;0:382;;1496:16:1;;;;;;1485:27;;;;;;;;1530:4;1523:11;;1320:221;;;;:::o",
   "source": "/*\n * SPDX-License-Identitifer:    GPL-3.0-or-later\n *\n * This file requires contract dependencies which are licensed as\n * GPL-3.0-or-later, forcing it to also be licensed as such.\n *\n * This is the only file in your project that requires this license and\n * you are free to choose a different license for the rest of the project.\n */\n\npragma solidity 0.4.24;\n\nimport \"@aragon/os/contracts/factory/DAOFactory.sol\";\nimport \"@aragon/os/contracts/apm/Repo.sol\";\nimport \"@aragon/os/contracts/lib/ens/ENS.sol\";\nimport \"@aragon/os/contracts/lib/ens/PublicResolver.sol\";\nimport \"@aragon/os/contracts/apm/APMNamehash.sol\";\n\nimport \"@aragon/apps-token-manager/contracts/TokenManager.sol\";\nimport \"@aragon/apps-shared-minime/contracts/MiniMeToken.sol\";\n\nimport \"./Subscribe.sol\";\n\n\ncontract TemplateBase is APMNamehash {\n    ENS public ens;\n    DAOFactory public fac;\n\n    event DeployDao(address dao);\n    event InstalledApp(address appProxy, bytes32 appId);\n\n    constructor(DAOFactory _fac, ENS _ens) public {\n        ens = _ens;\n\n        // If no factory is passed, get it from on-chain bare-kit\n        if (address(_fac) == address(0)) {\n            bytes32 bareKit = apmNamehash(\"bare-kit\");\n            fac = TemplateBase(latestVersionAppBase(bareKit)).fac();\n        } else {\n            fac = _fac;\n        }\n    }\n\n    function latestVersionAppBase(bytes32 appId) public view returns (address base) {\n        Repo repo = Repo(PublicResolver(ens.resolver(appId)).addr(appId));\n        (,base,) = repo.getLatest();\n\n        return base;\n    }\n}\n\n\ncontract Template is TemplateBase {\n    MiniMeTokenFactory tokenFactory;\n\n    uint constant TOKEN_UNIT = 10 ** 18;\n    uint64 constant PCT = 10 ** 16;\n    address constant ANY_ENTITY = address(-1);\n\n    constructor(ENS ens) TemplateBase(DAOFactory(0), ens) public {\n        tokenFactory = new MiniMeTokenFactory();\n    }\n\n    function newInstance() public {\n        Kernel dao = fac.newDAO(this);\n        ACL acl = ACL(dao.acl());\n        acl.createPermission(this, dao, dao.APP_MANAGER_ROLE(), this);\n\n        address root = msg.sender;\n        bytes32 subscribeAppId = keccak256(abi.encodePacked(apmNamehash(\"open\"), keccak256(\"subscribe-app\")));\n        bytes32 tokenManagerAppId = apmNamehash(\"token-manager\");\n\n        Subscribe subscribe = Subscribe(dao.newAppInstance(subscribeAppId, latestVersionAppBase(subscribeAppId)));\n        TokenManager tokenManager = TokenManager(dao.newAppInstance(tokenManagerAppId, latestVersionAppBase(tokenManagerAppId)));\n\n        MiniMeToken token = tokenFactory.createCloneToken(MiniMeToken(0), 0, \"Donut\", 18, \"DONUT\", true);\n        token.changeController(tokenManager);\n\n        // Initialize apps\n        tokenManager.initialize(token, true, 0);\n        emit InstalledApp(tokenManager, tokenManagerAppId);\n        subscribe.initialize(tokenManager, 1 * TOKEN_UNIT, 30 days);\n        emit InstalledApp(subscribe, subscribeAppId);\n\n        acl.createPermission(root, subscribe, subscribe.SET_PRICE_ROLE(), root);\n        acl.createPermission(root, subscribe, subscribe.SET_DURATION_ROLE(), root);\n        /* acl.createPermission(ANY_ENTITY, subscribe, subscribe.SUBSCRIBE_ROLE(), root); */\n\n        acl.createPermission(subscribe, tokenManager, tokenManager.BURN_ROLE(), root);\n        acl.createPermission(this, tokenManager, tokenManager.MINT_ROLE(), this);\n\n        tokenManager.mint(root, 1000e18); // Give 1000 token to msg.sender\n\n        // Clean up permissions\n        acl.grantPermission(root, dao, dao.APP_MANAGER_ROLE());\n        acl.revokePermission(this, dao, dao.APP_MANAGER_ROLE());\n        acl.setPermissionManager(root, dao, dao.APP_MANAGER_ROLE());\n\n        acl.grantPermission(root, acl, acl.CREATE_PERMISSIONS_ROLE());\n        acl.revokePermission(this, acl, acl.CREATE_PERMISSIONS_ROLE());\n        acl.setPermissionManager(root, acl, acl.CREATE_PERMISSIONS_ROLE());\n\n        emit DeployDao(dao);\n    }\n\n}\n",
   "sourcePath": "/home/carl/Projects/daonuts/subscribe-app/contracts/Template.sol",
@@ -128,7 +128,7 @@
         "id": 243,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 7235,
+        "sourceUnit": 7292,
         "src": "362:53:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -139,7 +139,7 @@
         "id": 244,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 4905,
+        "sourceUnit": 4962,
         "src": "416:43:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -150,7 +150,7 @@
         "id": 245,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 8253,
+        "sourceUnit": 8310,
         "src": "460:46:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -161,7 +161,7 @@
         "id": 246,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 8715,
+        "sourceUnit": 8772,
         "src": "507:57:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -172,7 +172,7 @@
         "id": 247,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 4512,
+        "sourceUnit": 4569,
         "src": "565:50:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -183,7 +183,7 @@
         "id": 248,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 2653,
+        "sourceUnit": 2710,
         "src": "617:63:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -194,7 +194,7 @@
         "id": 249,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 1761,
+        "sourceUnit": 1818,
         "src": "681:62:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -219,10 +219,10 @@
               "id": 251,
               "name": "APMNamehash",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4511,
+              "referencedDeclaration": 4568,
               "src": "798:11:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_APMNamehash_$4511",
+                "typeIdentifier": "t_contract$_APMNamehash_$4568",
                 "typeString": "contract APMNamehash"
               }
             },
@@ -232,7 +232,7 @@
           }
         ],
         "contractDependencies": [
-          4511
+          4568
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -240,7 +240,7 @@
         "id": 340,
         "linearizedBaseContracts": [
           340,
-          4511
+          4568
         ],
         "name": "TemplateBase",
         "nodeType": "ContractDefinition",
@@ -255,7 +255,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ENS_$8252",
+              "typeIdentifier": "t_contract$_ENS_$8309",
               "typeString": "contract ENS"
             },
             "typeName": {
@@ -263,10 +263,10 @@
               "id": 253,
               "name": "ENS",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8252,
+              "referencedDeclaration": 8309,
               "src": "816:3:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ENS_$8252",
+                "typeIdentifier": "t_contract$_ENS_$8309",
                 "typeString": "contract ENS"
               }
             },
@@ -283,7 +283,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+              "typeIdentifier": "t_contract$_DAOFactory_$7291",
               "typeString": "contract DAOFactory"
             },
             "typeName": {
@@ -291,10 +291,10 @@
               "id": 255,
               "name": "DAOFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7234,
+              "referencedDeclaration": 7291,
               "src": "836:10:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                "typeIdentifier": "t_contract$_DAOFactory_$7291",
                 "typeString": "contract DAOFactory"
               }
             },
@@ -435,7 +435,7 @@
                       "referencedDeclaration": 254,
                       "src": "1012:3:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ENS_$8252",
+                        "typeIdentifier": "t_contract$_ENS_$8309",
                         "typeString": "contract ENS"
                       }
                     },
@@ -450,13 +450,13 @@
                       "referencedDeclaration": 270,
                       "src": "1018:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ENS_$8252",
+                        "typeIdentifier": "t_contract$_ENS_$8309",
                         "typeString": "contract ENS"
                       }
                     },
                     "src": "1012:10:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   },
@@ -488,7 +488,7 @@
                           "referencedDeclaration": 268,
                           "src": "1111:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         }
@@ -496,7 +496,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         ],
@@ -613,7 +613,7 @@
                             "referencedDeclaration": 256,
                             "src": "1287:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
@@ -628,13 +628,13 @@
                             "referencedDeclaration": 268,
                             "src": "1293:4:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
                           "src": "1287:10:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         },
@@ -718,7 +718,7 @@
                             "name": "apmNamehash",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4510,
+                            "referencedDeclaration": 4567,
                             "src": "1164:11:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$_t_bytes32_$",
@@ -759,7 +759,7 @@
                             "referencedDeclaration": 256,
                             "src": "1201:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
@@ -865,7 +865,7 @@
                               "referencedDeclaration": 256,
                               "src": "1207:47:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_DAOFactory_$7234_$",
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_DAOFactory_$7291_$",
                                 "typeString": "function () view external returns (contract DAOFactory)"
                               }
                             },
@@ -879,13 +879,13 @@
                             "nodeType": "FunctionCall",
                             "src": "1207:49:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
                           "src": "1201:55:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         },
@@ -920,7 +920,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                    "typeIdentifier": "t_contract$_DAOFactory_$7291",
                     "typeString": "contract DAOFactory"
                   },
                   "typeName": {
@@ -928,10 +928,10 @@
                     "id": 267,
                     "name": "DAOFactory",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 7234,
+                    "referencedDeclaration": 7291,
                     "src": "968:10:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                      "typeIdentifier": "t_contract$_DAOFactory_$7291",
                       "typeString": "contract DAOFactory"
                     }
                   },
@@ -948,7 +948,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ENS_$8252",
+                    "typeIdentifier": "t_contract$_ENS_$8309",
                     "typeString": "contract ENS"
                   },
                   "typeName": {
@@ -956,10 +956,10 @@
                     "id": 269,
                     "name": "ENS",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8252,
+                    "referencedDeclaration": 8309,
                     "src": "985:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   },
@@ -1003,7 +1003,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Repo_$4904",
+                        "typeIdentifier": "t_contract$_Repo_$4961",
                         "typeString": "contract Repo"
                       },
                       "typeName": {
@@ -1011,10 +1011,10 @@
                         "id": 315,
                         "name": "Repo",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 4904,
+                        "referencedDeclaration": 4961,
                         "src": "1410:4:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Repo_$4904",
+                          "typeIdentifier": "t_contract$_Repo_$4961",
                           "typeString": "contract Repo"
                         }
                       },
@@ -1086,7 +1086,7 @@
                                     "referencedDeclaration": 254,
                                     "src": "1442:3:1",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ENS_$8252",
+                                      "typeIdentifier": "t_contract$_ENS_$8309",
                                       "typeString": "contract ENS"
                                     }
                                   },
@@ -1097,7 +1097,7 @@
                                   "lValueRequested": false,
                                   "memberName": "resolver",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 8137,
+                                  "referencedDeclaration": 8194,
                                   "src": "1442:12:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_address_$",
@@ -1130,10 +1130,10 @@
                               "name": "PublicResolver",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8714,
+                              "referencedDeclaration": 8771,
                               "src": "1427:14:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_PublicResolver_$8714_$",
+                                "typeIdentifier": "t_type$_t_contract$_PublicResolver_$8771_$",
                                 "typeString": "type(contract PublicResolver)"
                               }
                             },
@@ -1147,7 +1147,7 @@
                             "nodeType": "FunctionCall",
                             "src": "1427:35:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_PublicResolver_$8714",
+                              "typeIdentifier": "t_contract$_PublicResolver_$8771",
                               "typeString": "contract PublicResolver"
                             }
                           },
@@ -1158,7 +1158,7 @@
                           "lValueRequested": false,
                           "memberName": "addr",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 8420,
+                          "referencedDeclaration": 8477,
                           "src": "1427:40:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_address_$",
@@ -1191,10 +1191,10 @@
                       "name": "Repo",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4904,
+                      "referencedDeclaration": 4961,
                       "src": "1422:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Repo_$4904_$",
+                        "typeIdentifier": "t_type$_t_contract$_Repo_$4961_$",
                         "typeString": "type(contract Repo)"
                       }
                     },
@@ -1208,7 +1208,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1422:53:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Repo_$4904",
+                      "typeIdentifier": "t_contract$_Repo_$4961",
                       "typeString": "contract Repo"
                     }
                   },
@@ -1271,7 +1271,7 @@
                           "referencedDeclaration": 316,
                           "src": "1496:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Repo_$4904",
+                            "typeIdentifier": "t_contract$_Repo_$4961",
                             "typeString": "contract Repo"
                           }
                         },
@@ -1282,7 +1282,7 @@
                         "lValueRequested": false,
                         "memberName": "getLatest",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4708,
+                        "referencedDeclaration": 4765,
                         "src": "1496:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_array$_t_uint16_$3_memory_ptr_$_t_address_$_t_bytes_memory_ptr_$",
@@ -1442,8 +1442,8 @@
         ],
         "contractDependencies": [
           340,
-          1760,
-          4511
+          1817,
+          4568
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1452,7 +1452,7 @@
         "linearizedBaseContracts": [
           621,
           340,
-          4511
+          4568
         ],
         "name": "Template",
         "nodeType": "ContractDefinition",
@@ -1467,7 +1467,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+              "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
               "typeString": "contract MiniMeTokenFactory"
             },
             "typeName": {
@@ -1475,10 +1475,10 @@
               "id": 343,
               "name": "MiniMeTokenFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1760,
+              "referencedDeclaration": 1817,
               "src": "1586:18:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                 "typeString": "contract MiniMeTokenFactory"
               }
             },
@@ -1765,7 +1765,7 @@
                       "referencedDeclaration": 344,
                       "src": "1820:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                         "typeString": "contract MiniMeTokenFactory"
                       }
                     },
@@ -1784,7 +1784,7 @@
                         "nodeType": "NewExpression",
                         "src": "1835:22:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_MiniMeTokenFactory_$1760_$",
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_MiniMeTokenFactory_$1817_$",
                           "typeString": "function () returns (contract MiniMeTokenFactory)"
                         },
                         "typeName": {
@@ -1792,10 +1792,10 @@
                           "id": 372,
                           "name": "MiniMeTokenFactory",
                           "nodeType": "UserDefinedTypeName",
-                          "referencedDeclaration": 1760,
+                          "referencedDeclaration": 1817,
                           "src": "1839:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                            "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                             "typeString": "contract MiniMeTokenFactory"
                           }
                         }
@@ -1810,13 +1810,13 @@
                       "nodeType": "FunctionCall",
                       "src": "1835:24:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                         "typeString": "contract MiniMeTokenFactory"
                       }
                     },
                     "src": "1820:39:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                      "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                       "typeString": "contract MiniMeTokenFactory"
                     }
                   },
@@ -1867,10 +1867,10 @@
                       "name": "DAOFactory",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7234,
+                      "referencedDeclaration": 7291,
                       "src": "1783:10:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_DAOFactory_$7234_$",
+                        "typeIdentifier": "t_type$_t_contract$_DAOFactory_$7291_$",
                         "typeString": "type(contract DAOFactory)"
                       }
                     },
@@ -1884,7 +1884,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1783:13:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                      "typeIdentifier": "t_contract$_DAOFactory_$7291",
                       "typeString": "contract DAOFactory"
                     }
                   },
@@ -1897,7 +1897,7 @@
                     "referencedDeclaration": 362,
                     "src": "1798:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   }
@@ -1936,7 +1936,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ENS_$8252",
+                    "typeIdentifier": "t_contract$_ENS_$8309",
                     "typeString": "contract ENS"
                   },
                   "typeName": {
@@ -1944,10 +1944,10 @@
                     "id": 361,
                     "name": "ENS",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8252,
+                    "referencedDeclaration": 8309,
                     "src": "1761:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   },
@@ -1991,7 +1991,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Kernel_$7887",
+                        "typeIdentifier": "t_contract$_Kernel_$7944",
                         "typeString": "contract Kernel"
                       },
                       "typeName": {
@@ -1999,10 +1999,10 @@
                         "id": 381,
                         "name": "Kernel",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 7887,
+                        "referencedDeclaration": 7944,
                         "src": "1912:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -2020,7 +2020,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "1936:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -2044,7 +2044,7 @@
                         "referencedDeclaration": 256,
                         "src": "1925:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                          "typeIdentifier": "t_contract$_DAOFactory_$7291",
                           "typeString": "contract DAOFactory"
                         }
                       },
@@ -2055,10 +2055,10 @@
                       "lValueRequested": false,
                       "memberName": "newDAO",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 7233,
+                      "referencedDeclaration": 7290,
                       "src": "1925:10:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_contract$_Kernel_$7887_$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_contract$_Kernel_$7944_$",
                         "typeString": "function (address) external returns (contract Kernel)"
                       }
                     },
@@ -2072,7 +2072,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1925:16:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Kernel_$7887",
+                      "typeIdentifier": "t_contract$_Kernel_$7944",
                       "typeString": "contract Kernel"
                     }
                   },
@@ -2094,7 +2094,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ACL_$3947",
+                        "typeIdentifier": "t_contract$_ACL_$4004",
                         "typeString": "contract ACL"
                       },
                       "typeName": {
@@ -2102,10 +2102,10 @@
                         "id": 388,
                         "name": "ACL",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 3947,
+                        "referencedDeclaration": 4004,
                         "src": "1951:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -2131,7 +2131,7 @@
                             "referencedDeclaration": 382,
                             "src": "1965:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -2142,10 +2142,10 @@
                           "lValueRequested": false,
                           "memberName": "acl",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7757,
+                          "referencedDeclaration": 7814,
                           "src": "1965:7:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IACL_$4468_$",
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IACL_$4525_$",
                             "typeString": "function () view external returns (contract IACL)"
                           }
                         },
@@ -2159,7 +2159,7 @@
                         "nodeType": "FunctionCall",
                         "src": "1965:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IACL_$4468",
+                          "typeIdentifier": "t_contract$_IACL_$4525",
                           "typeString": "contract IACL"
                         }
                       }
@@ -2167,7 +2167,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_IACL_$4468",
+                          "typeIdentifier": "t_contract$_IACL_$4525",
                           "typeString": "contract IACL"
                         }
                       ],
@@ -2175,10 +2175,10 @@
                       "name": "ACL",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3947,
+                      "referencedDeclaration": 4004,
                       "src": "1961:3:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_ACL_$3947_$",
+                        "typeIdentifier": "t_type$_t_contract$_ACL_$4004_$",
                         "typeString": "type(contract ACL)"
                       }
                     },
@@ -2192,7 +2192,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1961:14:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ACL_$3947",
+                      "typeIdentifier": "t_contract$_ACL_$4004",
                       "typeString": "contract ACL"
                     }
                   },
@@ -2209,7 +2209,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "2006:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -2225,7 +2225,7 @@
                         "referencedDeclaration": 382,
                         "src": "2012:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -2243,7 +2243,7 @@
                             "referencedDeclaration": 382,
                             "src": "2017:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -2254,7 +2254,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "2017:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -2281,7 +2281,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "2041:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -2296,7 +2296,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -2317,7 +2317,7 @@
                         "referencedDeclaration": 389,
                         "src": "1985:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -2328,7 +2328,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "1985:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -2394,7 +2394,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 9104,
+                      "referencedDeclaration": 9161,
                       "src": "2072:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -2490,7 +2490,7 @@
                               "name": "apmNamehash",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4510,
+                              "referencedDeclaration": 4567,
                               "src": "2144:11:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$_t_bytes32_$",
@@ -2544,7 +2544,7 @@
                               "name": "keccak256",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 9098,
+                              "referencedDeclaration": 9155,
                               "src": "2165:9:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -2583,7 +2583,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 9091,
+                            "referencedDeclaration": 9148,
                             "src": "2127:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -2630,7 +2630,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 9098,
+                      "referencedDeclaration": 9155,
                       "src": "2117:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -2720,7 +2720,7 @@
                       "name": "apmNamehash",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4510,
+                      "referencedDeclaration": 4567,
                       "src": "2231:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$_t_bytes32_$",
@@ -2868,7 +2868,7 @@
                             "referencedDeclaration": 382,
                             "src": "2302:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -2879,10 +2879,10 @@
                           "lValueRequested": false,
                           "memberName": "newAppInstance",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7521,
+                          "referencedDeclaration": 7578,
                           "src": "2302:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9020_$",
+                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9077_$",
                             "typeString": "function (bytes32,address) external returns (contract ERCProxy)"
                           }
                         },
@@ -2896,7 +2896,7 @@
                         "nodeType": "FunctionCall",
                         "src": "2302:72:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       }
@@ -2904,7 +2904,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       ],
@@ -2951,7 +2951,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenManager_$2652",
+                        "typeIdentifier": "t_contract$_TokenManager_$2709",
                         "typeString": "contract TokenManager"
                       },
                       "typeName": {
@@ -2959,10 +2959,10 @@
                         "id": 444,
                         "name": "TokenManager",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2652,
+                        "referencedDeclaration": 2709,
                         "src": "2385:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -3060,7 +3060,7 @@
                             "referencedDeclaration": 382,
                             "src": "2426:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -3071,10 +3071,10 @@
                           "lValueRequested": false,
                           "memberName": "newAppInstance",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7521,
+                          "referencedDeclaration": 7578,
                           "src": "2426:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9020_$",
+                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9077_$",
                             "typeString": "function (bytes32,address) external returns (contract ERCProxy)"
                           }
                         },
@@ -3088,7 +3088,7 @@
                         "nodeType": "FunctionCall",
                         "src": "2426:78:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       }
@@ -3096,7 +3096,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       ],
@@ -3104,10 +3104,10 @@
                       "name": "TokenManager",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2652,
+                      "referencedDeclaration": 2709,
                       "src": "2413:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_TokenManager_$2652_$",
+                        "typeIdentifier": "t_type$_t_contract$_TokenManager_$2709_$",
                         "typeString": "type(contract TokenManager)"
                       }
                     },
@@ -3121,7 +3121,7 @@
                     "nodeType": "FunctionCall",
                     "src": "2413:92:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenManager_$2652",
+                      "typeIdentifier": "t_contract$_TokenManager_$2709",
                       "typeString": "contract TokenManager"
                     }
                   },
@@ -3143,7 +3143,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                        "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                         "typeString": "contract MiniMeToken"
                       },
                       "typeName": {
@@ -3151,10 +3151,10 @@
                         "id": 456,
                         "name": "MiniMeToken",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 1719,
+                        "referencedDeclaration": 1776,
                         "src": "2516:11:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -3199,10 +3199,10 @@
                           "name": "MiniMeToken",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1719,
+                          "referencedDeclaration": 1776,
                           "src": "2566:11:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_MiniMeToken_$1719_$",
+                            "typeIdentifier": "t_type$_t_contract$_MiniMeToken_$1776_$",
                             "typeString": "type(contract MiniMeToken)"
                           }
                         },
@@ -3216,7 +3216,7 @@
                         "nodeType": "FunctionCall",
                         "src": "2566:14:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -3314,7 +3314,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         },
                         {
@@ -3347,7 +3347,7 @@
                         "referencedDeclaration": 344,
                         "src": "2536:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                          "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                           "typeString": "contract MiniMeTokenFactory"
                         }
                       },
@@ -3358,10 +3358,10 @@
                       "lValueRequested": false,
                       "memberName": "createCloneToken",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1759,
+                      "referencedDeclaration": 1816,
                       "src": "2536:29:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1719_$_t_uint256_$_t_string_memory_ptr_$_t_uint8_$_t_string_memory_ptr_$_t_bool_$returns$_t_contract$_MiniMeToken_$1719_$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1776_$_t_uint256_$_t_string_memory_ptr_$_t_uint8_$_t_string_memory_ptr_$_t_bool_$returns$_t_contract$_MiniMeToken_$1776_$",
                         "typeString": "function (contract MiniMeToken,uint256,string memory,uint8,string memory,bool) external returns (contract MiniMeToken)"
                       }
                     },
@@ -3375,7 +3375,7 @@
                     "nodeType": "FunctionCall",
                     "src": "2536:76:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                      "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                       "typeString": "contract MiniMeToken"
                     }
                   },
@@ -3395,7 +3395,7 @@
                         "referencedDeclaration": 445,
                         "src": "2645:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       }
@@ -3403,7 +3403,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       ],
@@ -3416,7 +3416,7 @@
                         "referencedDeclaration": 457,
                         "src": "2622:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -3427,7 +3427,7 @@
                       "lValueRequested": false,
                       "memberName": "changeController",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 690,
+                      "referencedDeclaration": 747,
                       "src": "2622:22:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
@@ -3465,7 +3465,7 @@
                         "referencedDeclaration": 457,
                         "src": "2720:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -3509,7 +3509,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         },
                         {
@@ -3530,7 +3530,7 @@
                         "referencedDeclaration": 445,
                         "src": "2696:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -3541,10 +3541,10 @@
                       "lValueRequested": false,
                       "memberName": "initialize",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1967,
+                      "referencedDeclaration": 2024,
                       "src": "2696:23:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1719_$_t_bool_$_t_uint256_$returns$__$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1776_$_t_bool_$_t_uint256_$returns$__$",
                         "typeString": "function (contract MiniMeToken,bool,uint256) external"
                       }
                     },
@@ -3579,7 +3579,7 @@
                         "referencedDeclaration": 445,
                         "src": "2763:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -3600,7 +3600,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -3650,7 +3650,7 @@
                         "referencedDeclaration": 445,
                         "src": "2826:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -3726,7 +3726,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -3761,7 +3761,7 @@
                       "referencedDeclaration": 78,
                       "src": "2805:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_TokenManager_$2652_$_t_uint256_$_t_uint64_$returns$__$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_TokenManager_$2709_$_t_uint256_$_t_uint64_$returns$__$",
                         "typeString": "function (contract TokenManager,uint256,uint64) external"
                       }
                     },
@@ -3972,7 +3972,7 @@
                         "referencedDeclaration": 389,
                         "src": "2929:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -3983,7 +3983,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "2929:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -4126,7 +4126,7 @@
                         "referencedDeclaration": 389,
                         "src": "3010:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -4137,7 +4137,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "3010:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -4188,7 +4188,7 @@
                         "referencedDeclaration": 445,
                         "src": "3220:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -4206,7 +4206,7 @@
                             "referencedDeclaration": 445,
                             "src": "3234:12:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_TokenManager_$2652",
+                              "typeIdentifier": "t_contract$_TokenManager_$2709",
                               "typeString": "contract TokenManager"
                             }
                           },
@@ -4217,7 +4217,7 @@
                           "lValueRequested": false,
                           "memberName": "BURN_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1801,
+                          "referencedDeclaration": 1858,
                           "src": "3234:22:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -4259,7 +4259,7 @@
                           "typeString": "contract Subscribe"
                         },
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -4280,7 +4280,7 @@
                         "referencedDeclaration": 389,
                         "src": "3188:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -4291,7 +4291,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "3188:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -4326,7 +4326,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3296:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -4342,7 +4342,7 @@
                         "referencedDeclaration": 445,
                         "src": "3302:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -4360,7 +4360,7 @@
                             "referencedDeclaration": 445,
                             "src": "3316:12:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_TokenManager_$2652",
+                              "typeIdentifier": "t_contract$_TokenManager_$2709",
                               "typeString": "contract TokenManager"
                             }
                           },
@@ -4371,7 +4371,7 @@
                           "lValueRequested": false,
                           "memberName": "MINT_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1781,
+                          "referencedDeclaration": 1838,
                           "src": "3316:22:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -4398,7 +4398,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3342:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -4413,7 +4413,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -4434,7 +4434,7 @@
                         "referencedDeclaration": 389,
                         "src": "3275:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -4445,7 +4445,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "3275:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -4526,7 +4526,7 @@
                         "referencedDeclaration": 445,
                         "src": "3358:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -4537,7 +4537,7 @@
                       "lValueRequested": false,
                       "memberName": "mint",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1996,
+                      "referencedDeclaration": 2053,
                       "src": "3358:17:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -4588,7 +4588,7 @@
                         "referencedDeclaration": 382,
                         "src": "3492:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -4606,7 +4606,7 @@
                             "referencedDeclaration": 382,
                             "src": "3497:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -4617,7 +4617,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "3497:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -4646,7 +4646,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -4663,7 +4663,7 @@
                         "referencedDeclaration": 389,
                         "src": "3466:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -4674,7 +4674,7 @@
                       "lValueRequested": false,
                       "memberName": "grantPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2894,
+                      "referencedDeclaration": 2951,
                       "src": "3466:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -4709,7 +4709,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3551:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -4725,7 +4725,7 @@
                         "referencedDeclaration": 382,
                         "src": "3557:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -4743,7 +4743,7 @@
                             "referencedDeclaration": 382,
                             "src": "3562:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -4754,7 +4754,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "3562:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -4783,7 +4783,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -4800,7 +4800,7 @@
                         "referencedDeclaration": 389,
                         "src": "3530:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -4811,7 +4811,7 @@
                       "lValueRequested": false,
                       "memberName": "revokePermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2951,
+                      "referencedDeclaration": 3008,
                       "src": "3530:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -4862,7 +4862,7 @@
                         "referencedDeclaration": 382,
                         "src": "3626:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -4880,7 +4880,7 @@
                             "referencedDeclaration": 382,
                             "src": "3631:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -4891,7 +4891,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "3631:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -4920,7 +4920,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -4937,7 +4937,7 @@
                         "referencedDeclaration": 389,
                         "src": "3595:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -4948,7 +4948,7 @@
                       "lValueRequested": false,
                       "memberName": "setPermissionManager",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2971,
+                      "referencedDeclaration": 3028,
                       "src": "3595:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -4999,7 +4999,7 @@
                         "referencedDeclaration": 389,
                         "src": "3691:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -5017,7 +5017,7 @@
                             "referencedDeclaration": 389,
                             "src": "3696:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ACL_$3947",
+                              "typeIdentifier": "t_contract$_ACL_$4004",
                               "typeString": "contract ACL"
                             }
                           },
@@ -5028,7 +5028,7 @@
                           "lValueRequested": false,
                           "memberName": "CREATE_PERMISSIONS_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2671,
+                          "referencedDeclaration": 2728,
                           "src": "3696:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -5057,7 +5057,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         },
                         {
@@ -5074,7 +5074,7 @@
                         "referencedDeclaration": 389,
                         "src": "3665:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -5085,7 +5085,7 @@
                       "lValueRequested": false,
                       "memberName": "grantPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2894,
+                      "referencedDeclaration": 2951,
                       "src": "3665:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -5120,7 +5120,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3757:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -5136,7 +5136,7 @@
                         "referencedDeclaration": 389,
                         "src": "3763:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -5154,7 +5154,7 @@
                             "referencedDeclaration": 389,
                             "src": "3768:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ACL_$3947",
+                              "typeIdentifier": "t_contract$_ACL_$4004",
                               "typeString": "contract ACL"
                             }
                           },
@@ -5165,7 +5165,7 @@
                           "lValueRequested": false,
                           "memberName": "CREATE_PERMISSIONS_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2671,
+                          "referencedDeclaration": 2728,
                           "src": "3768:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -5194,7 +5194,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         },
                         {
@@ -5211,7 +5211,7 @@
                         "referencedDeclaration": 389,
                         "src": "3736:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -5222,7 +5222,7 @@
                       "lValueRequested": false,
                       "memberName": "revokePermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2951,
+                      "referencedDeclaration": 3008,
                       "src": "3736:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -5273,7 +5273,7 @@
                         "referencedDeclaration": 389,
                         "src": "3839:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -5291,7 +5291,7 @@
                             "referencedDeclaration": 389,
                             "src": "3844:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ACL_$3947",
+                              "typeIdentifier": "t_contract$_ACL_$4004",
                               "typeString": "contract ACL"
                             }
                           },
@@ -5302,7 +5302,7 @@
                           "lValueRequested": false,
                           "memberName": "CREATE_PERMISSIONS_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2671,
+                          "referencedDeclaration": 2728,
                           "src": "3844:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -5331,7 +5331,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         },
                         {
@@ -5348,7 +5348,7 @@
                         "referencedDeclaration": 389,
                         "src": "3808:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -5359,7 +5359,7 @@
                       "lValueRequested": false,
                       "memberName": "setPermissionManager",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2971,
+                      "referencedDeclaration": 3028,
                       "src": "3808:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -5397,7 +5397,7 @@
                         "referencedDeclaration": 382,
                         "src": "3900:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       }
@@ -5405,7 +5405,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       ],
@@ -5503,7 +5503,7 @@
         "id": 243,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 7235,
+        "sourceUnit": 7292,
         "src": "362:53:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5514,7 +5514,7 @@
         "id": 244,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 4905,
+        "sourceUnit": 4962,
         "src": "416:43:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5525,7 +5525,7 @@
         "id": 245,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 8253,
+        "sourceUnit": 8310,
         "src": "460:46:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5536,7 +5536,7 @@
         "id": 246,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 8715,
+        "sourceUnit": 8772,
         "src": "507:57:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5547,7 +5547,7 @@
         "id": 247,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 4512,
+        "sourceUnit": 4569,
         "src": "565:50:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5558,7 +5558,7 @@
         "id": 248,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 2653,
+        "sourceUnit": 2710,
         "src": "617:63:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5569,7 +5569,7 @@
         "id": 249,
         "nodeType": "ImportDirective",
         "scope": 622,
-        "sourceUnit": 1761,
+        "sourceUnit": 1818,
         "src": "681:62:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5594,10 +5594,10 @@
               "id": 251,
               "name": "APMNamehash",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4511,
+              "referencedDeclaration": 4568,
               "src": "798:11:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_APMNamehash_$4511",
+                "typeIdentifier": "t_contract$_APMNamehash_$4568",
                 "typeString": "contract APMNamehash"
               }
             },
@@ -5607,7 +5607,7 @@
           }
         ],
         "contractDependencies": [
-          4511
+          4568
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -5615,7 +5615,7 @@
         "id": 340,
         "linearizedBaseContracts": [
           340,
-          4511
+          4568
         ],
         "name": "TemplateBase",
         "nodeType": "ContractDefinition",
@@ -5630,7 +5630,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ENS_$8252",
+              "typeIdentifier": "t_contract$_ENS_$8309",
               "typeString": "contract ENS"
             },
             "typeName": {
@@ -5638,10 +5638,10 @@
               "id": 253,
               "name": "ENS",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8252,
+              "referencedDeclaration": 8309,
               "src": "816:3:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ENS_$8252",
+                "typeIdentifier": "t_contract$_ENS_$8309",
                 "typeString": "contract ENS"
               }
             },
@@ -5658,7 +5658,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+              "typeIdentifier": "t_contract$_DAOFactory_$7291",
               "typeString": "contract DAOFactory"
             },
             "typeName": {
@@ -5666,10 +5666,10 @@
               "id": 255,
               "name": "DAOFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7234,
+              "referencedDeclaration": 7291,
               "src": "836:10:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                "typeIdentifier": "t_contract$_DAOFactory_$7291",
                 "typeString": "contract DAOFactory"
               }
             },
@@ -5810,7 +5810,7 @@
                       "referencedDeclaration": 254,
                       "src": "1012:3:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ENS_$8252",
+                        "typeIdentifier": "t_contract$_ENS_$8309",
                         "typeString": "contract ENS"
                       }
                     },
@@ -5825,13 +5825,13 @@
                       "referencedDeclaration": 270,
                       "src": "1018:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ENS_$8252",
+                        "typeIdentifier": "t_contract$_ENS_$8309",
                         "typeString": "contract ENS"
                       }
                     },
                     "src": "1012:10:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   },
@@ -5863,7 +5863,7 @@
                           "referencedDeclaration": 268,
                           "src": "1111:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         }
@@ -5871,7 +5871,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         ],
@@ -5988,7 +5988,7 @@
                             "referencedDeclaration": 256,
                             "src": "1287:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
@@ -6003,13 +6003,13 @@
                             "referencedDeclaration": 268,
                             "src": "1293:4:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
                           "src": "1287:10:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         },
@@ -6093,7 +6093,7 @@
                             "name": "apmNamehash",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4510,
+                            "referencedDeclaration": 4567,
                             "src": "1164:11:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$_t_bytes32_$",
@@ -6134,7 +6134,7 @@
                             "referencedDeclaration": 256,
                             "src": "1201:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
@@ -6240,7 +6240,7 @@
                               "referencedDeclaration": 256,
                               "src": "1207:47:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_DAOFactory_$7234_$",
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_DAOFactory_$7291_$",
                                 "typeString": "function () view external returns (contract DAOFactory)"
                               }
                             },
@@ -6254,13 +6254,13 @@
                             "nodeType": "FunctionCall",
                             "src": "1207:49:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                              "typeIdentifier": "t_contract$_DAOFactory_$7291",
                               "typeString": "contract DAOFactory"
                             }
                           },
                           "src": "1201:55:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                            "typeIdentifier": "t_contract$_DAOFactory_$7291",
                             "typeString": "contract DAOFactory"
                           }
                         },
@@ -6295,7 +6295,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                    "typeIdentifier": "t_contract$_DAOFactory_$7291",
                     "typeString": "contract DAOFactory"
                   },
                   "typeName": {
@@ -6303,10 +6303,10 @@
                     "id": 267,
                     "name": "DAOFactory",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 7234,
+                    "referencedDeclaration": 7291,
                     "src": "968:10:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                      "typeIdentifier": "t_contract$_DAOFactory_$7291",
                       "typeString": "contract DAOFactory"
                     }
                   },
@@ -6323,7 +6323,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ENS_$8252",
+                    "typeIdentifier": "t_contract$_ENS_$8309",
                     "typeString": "contract ENS"
                   },
                   "typeName": {
@@ -6331,10 +6331,10 @@
                     "id": 269,
                     "name": "ENS",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8252,
+                    "referencedDeclaration": 8309,
                     "src": "985:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   },
@@ -6378,7 +6378,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Repo_$4904",
+                        "typeIdentifier": "t_contract$_Repo_$4961",
                         "typeString": "contract Repo"
                       },
                       "typeName": {
@@ -6386,10 +6386,10 @@
                         "id": 315,
                         "name": "Repo",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 4904,
+                        "referencedDeclaration": 4961,
                         "src": "1410:4:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Repo_$4904",
+                          "typeIdentifier": "t_contract$_Repo_$4961",
                           "typeString": "contract Repo"
                         }
                       },
@@ -6461,7 +6461,7 @@
                                     "referencedDeclaration": 254,
                                     "src": "1442:3:1",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ENS_$8252",
+                                      "typeIdentifier": "t_contract$_ENS_$8309",
                                       "typeString": "contract ENS"
                                     }
                                   },
@@ -6472,7 +6472,7 @@
                                   "lValueRequested": false,
                                   "memberName": "resolver",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 8137,
+                                  "referencedDeclaration": 8194,
                                   "src": "1442:12:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_address_$",
@@ -6505,10 +6505,10 @@
                               "name": "PublicResolver",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8714,
+                              "referencedDeclaration": 8771,
                               "src": "1427:14:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_PublicResolver_$8714_$",
+                                "typeIdentifier": "t_type$_t_contract$_PublicResolver_$8771_$",
                                 "typeString": "type(contract PublicResolver)"
                               }
                             },
@@ -6522,7 +6522,7 @@
                             "nodeType": "FunctionCall",
                             "src": "1427:35:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_PublicResolver_$8714",
+                              "typeIdentifier": "t_contract$_PublicResolver_$8771",
                               "typeString": "contract PublicResolver"
                             }
                           },
@@ -6533,7 +6533,7 @@
                           "lValueRequested": false,
                           "memberName": "addr",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 8420,
+                          "referencedDeclaration": 8477,
                           "src": "1427:40:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_address_$",
@@ -6566,10 +6566,10 @@
                       "name": "Repo",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4904,
+                      "referencedDeclaration": 4961,
                       "src": "1422:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Repo_$4904_$",
+                        "typeIdentifier": "t_type$_t_contract$_Repo_$4961_$",
                         "typeString": "type(contract Repo)"
                       }
                     },
@@ -6583,7 +6583,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1422:53:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Repo_$4904",
+                      "typeIdentifier": "t_contract$_Repo_$4961",
                       "typeString": "contract Repo"
                     }
                   },
@@ -6646,7 +6646,7 @@
                           "referencedDeclaration": 316,
                           "src": "1496:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Repo_$4904",
+                            "typeIdentifier": "t_contract$_Repo_$4961",
                             "typeString": "contract Repo"
                           }
                         },
@@ -6657,7 +6657,7 @@
                         "lValueRequested": false,
                         "memberName": "getLatest",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4708,
+                        "referencedDeclaration": 4765,
                         "src": "1496:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_array$_t_uint16_$3_memory_ptr_$_t_address_$_t_bytes_memory_ptr_$",
@@ -6817,8 +6817,8 @@
         ],
         "contractDependencies": [
           340,
-          1760,
-          4511
+          1817,
+          4568
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -6827,7 +6827,7 @@
         "linearizedBaseContracts": [
           621,
           340,
-          4511
+          4568
         ],
         "name": "Template",
         "nodeType": "ContractDefinition",
@@ -6842,7 +6842,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+              "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
               "typeString": "contract MiniMeTokenFactory"
             },
             "typeName": {
@@ -6850,10 +6850,10 @@
               "id": 343,
               "name": "MiniMeTokenFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1760,
+              "referencedDeclaration": 1817,
               "src": "1586:18:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                 "typeString": "contract MiniMeTokenFactory"
               }
             },
@@ -7140,7 +7140,7 @@
                       "referencedDeclaration": 344,
                       "src": "1820:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                         "typeString": "contract MiniMeTokenFactory"
                       }
                     },
@@ -7159,7 +7159,7 @@
                         "nodeType": "NewExpression",
                         "src": "1835:22:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_MiniMeTokenFactory_$1760_$",
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_MiniMeTokenFactory_$1817_$",
                           "typeString": "function () returns (contract MiniMeTokenFactory)"
                         },
                         "typeName": {
@@ -7167,10 +7167,10 @@
                           "id": 372,
                           "name": "MiniMeTokenFactory",
                           "nodeType": "UserDefinedTypeName",
-                          "referencedDeclaration": 1760,
+                          "referencedDeclaration": 1817,
                           "src": "1839:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                            "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                             "typeString": "contract MiniMeTokenFactory"
                           }
                         }
@@ -7185,13 +7185,13 @@
                       "nodeType": "FunctionCall",
                       "src": "1835:24:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                        "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                         "typeString": "contract MiniMeTokenFactory"
                       }
                     },
                     "src": "1820:39:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                      "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                       "typeString": "contract MiniMeTokenFactory"
                     }
                   },
@@ -7242,10 +7242,10 @@
                       "name": "DAOFactory",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7234,
+                      "referencedDeclaration": 7291,
                       "src": "1783:10:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_DAOFactory_$7234_$",
+                        "typeIdentifier": "t_type$_t_contract$_DAOFactory_$7291_$",
                         "typeString": "type(contract DAOFactory)"
                       }
                     },
@@ -7259,7 +7259,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1783:13:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                      "typeIdentifier": "t_contract$_DAOFactory_$7291",
                       "typeString": "contract DAOFactory"
                     }
                   },
@@ -7272,7 +7272,7 @@
                     "referencedDeclaration": 362,
                     "src": "1798:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   }
@@ -7311,7 +7311,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ENS_$8252",
+                    "typeIdentifier": "t_contract$_ENS_$8309",
                     "typeString": "contract ENS"
                   },
                   "typeName": {
@@ -7319,10 +7319,10 @@
                     "id": 361,
                     "name": "ENS",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8252,
+                    "referencedDeclaration": 8309,
                     "src": "1761:3:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ENS_$8252",
+                      "typeIdentifier": "t_contract$_ENS_$8309",
                       "typeString": "contract ENS"
                     }
                   },
@@ -7366,7 +7366,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Kernel_$7887",
+                        "typeIdentifier": "t_contract$_Kernel_$7944",
                         "typeString": "contract Kernel"
                       },
                       "typeName": {
@@ -7374,10 +7374,10 @@
                         "id": 381,
                         "name": "Kernel",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 7887,
+                        "referencedDeclaration": 7944,
                         "src": "1912:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -7395,7 +7395,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "1936:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -7419,7 +7419,7 @@
                         "referencedDeclaration": 256,
                         "src": "1925:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_DAOFactory_$7234",
+                          "typeIdentifier": "t_contract$_DAOFactory_$7291",
                           "typeString": "contract DAOFactory"
                         }
                       },
@@ -7430,10 +7430,10 @@
                       "lValueRequested": false,
                       "memberName": "newDAO",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 7233,
+                      "referencedDeclaration": 7290,
                       "src": "1925:10:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_contract$_Kernel_$7887_$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_contract$_Kernel_$7944_$",
                         "typeString": "function (address) external returns (contract Kernel)"
                       }
                     },
@@ -7447,7 +7447,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1925:16:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Kernel_$7887",
+                      "typeIdentifier": "t_contract$_Kernel_$7944",
                       "typeString": "contract Kernel"
                     }
                   },
@@ -7469,7 +7469,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ACL_$3947",
+                        "typeIdentifier": "t_contract$_ACL_$4004",
                         "typeString": "contract ACL"
                       },
                       "typeName": {
@@ -7477,10 +7477,10 @@
                         "id": 388,
                         "name": "ACL",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 3947,
+                        "referencedDeclaration": 4004,
                         "src": "1951:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -7506,7 +7506,7 @@
                             "referencedDeclaration": 382,
                             "src": "1965:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -7517,10 +7517,10 @@
                           "lValueRequested": false,
                           "memberName": "acl",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7757,
+                          "referencedDeclaration": 7814,
                           "src": "1965:7:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IACL_$4468_$",
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_IACL_$4525_$",
                             "typeString": "function () view external returns (contract IACL)"
                           }
                         },
@@ -7534,7 +7534,7 @@
                         "nodeType": "FunctionCall",
                         "src": "1965:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IACL_$4468",
+                          "typeIdentifier": "t_contract$_IACL_$4525",
                           "typeString": "contract IACL"
                         }
                       }
@@ -7542,7 +7542,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_IACL_$4468",
+                          "typeIdentifier": "t_contract$_IACL_$4525",
                           "typeString": "contract IACL"
                         }
                       ],
@@ -7550,10 +7550,10 @@
                       "name": "ACL",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3947,
+                      "referencedDeclaration": 4004,
                       "src": "1961:3:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_ACL_$3947_$",
+                        "typeIdentifier": "t_type$_t_contract$_ACL_$4004_$",
                         "typeString": "type(contract ACL)"
                       }
                     },
@@ -7567,7 +7567,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1961:14:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ACL_$3947",
+                      "typeIdentifier": "t_contract$_ACL_$4004",
                       "typeString": "contract ACL"
                     }
                   },
@@ -7584,7 +7584,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "2006:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -7600,7 +7600,7 @@
                         "referencedDeclaration": 382,
                         "src": "2012:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -7618,7 +7618,7 @@
                             "referencedDeclaration": 382,
                             "src": "2017:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -7629,7 +7629,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "2017:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -7656,7 +7656,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "2041:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -7671,7 +7671,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -7692,7 +7692,7 @@
                         "referencedDeclaration": 389,
                         "src": "1985:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -7703,7 +7703,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "1985:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -7769,7 +7769,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 9104,
+                      "referencedDeclaration": 9161,
                       "src": "2072:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -7865,7 +7865,7 @@
                               "name": "apmNamehash",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4510,
+                              "referencedDeclaration": 4567,
                               "src": "2144:11:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$_t_bytes32_$",
@@ -7919,7 +7919,7 @@
                               "name": "keccak256",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 9098,
+                              "referencedDeclaration": 9155,
                               "src": "2165:9:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -7958,7 +7958,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 9091,
+                            "referencedDeclaration": 9148,
                             "src": "2127:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -8005,7 +8005,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 9098,
+                      "referencedDeclaration": 9155,
                       "src": "2117:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
@@ -8095,7 +8095,7 @@
                       "name": "apmNamehash",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4510,
+                      "referencedDeclaration": 4567,
                       "src": "2231:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$_t_bytes32_$",
@@ -8243,7 +8243,7 @@
                             "referencedDeclaration": 382,
                             "src": "2302:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -8254,10 +8254,10 @@
                           "lValueRequested": false,
                           "memberName": "newAppInstance",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7521,
+                          "referencedDeclaration": 7578,
                           "src": "2302:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9020_$",
+                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9077_$",
                             "typeString": "function (bytes32,address) external returns (contract ERCProxy)"
                           }
                         },
@@ -8271,7 +8271,7 @@
                         "nodeType": "FunctionCall",
                         "src": "2302:72:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       }
@@ -8279,7 +8279,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       ],
@@ -8326,7 +8326,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenManager_$2652",
+                        "typeIdentifier": "t_contract$_TokenManager_$2709",
                         "typeString": "contract TokenManager"
                       },
                       "typeName": {
@@ -8334,10 +8334,10 @@
                         "id": 444,
                         "name": "TokenManager",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2652,
+                        "referencedDeclaration": 2709,
                         "src": "2385:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -8435,7 +8435,7 @@
                             "referencedDeclaration": 382,
                             "src": "2426:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -8446,10 +8446,10 @@
                           "lValueRequested": false,
                           "memberName": "newAppInstance",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7521,
+                          "referencedDeclaration": 7578,
                           "src": "2426:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9020_$",
+                            "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_address_$returns$_t_contract$_ERCProxy_$9077_$",
                             "typeString": "function (bytes32,address) external returns (contract ERCProxy)"
                           }
                         },
@@ -8463,7 +8463,7 @@
                         "nodeType": "FunctionCall",
                         "src": "2426:78:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       }
@@ -8471,7 +8471,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ERCProxy_$9020",
+                          "typeIdentifier": "t_contract$_ERCProxy_$9077",
                           "typeString": "contract ERCProxy"
                         }
                       ],
@@ -8479,10 +8479,10 @@
                       "name": "TokenManager",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2652,
+                      "referencedDeclaration": 2709,
                       "src": "2413:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_TokenManager_$2652_$",
+                        "typeIdentifier": "t_type$_t_contract$_TokenManager_$2709_$",
                         "typeString": "type(contract TokenManager)"
                       }
                     },
@@ -8496,7 +8496,7 @@
                     "nodeType": "FunctionCall",
                     "src": "2413:92:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenManager_$2652",
+                      "typeIdentifier": "t_contract$_TokenManager_$2709",
                       "typeString": "contract TokenManager"
                     }
                   },
@@ -8518,7 +8518,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                        "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                         "typeString": "contract MiniMeToken"
                       },
                       "typeName": {
@@ -8526,10 +8526,10 @@
                         "id": 456,
                         "name": "MiniMeToken",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 1719,
+                        "referencedDeclaration": 1776,
                         "src": "2516:11:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -8574,10 +8574,10 @@
                           "name": "MiniMeToken",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1719,
+                          "referencedDeclaration": 1776,
                           "src": "2566:11:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_MiniMeToken_$1719_$",
+                            "typeIdentifier": "t_type$_t_contract$_MiniMeToken_$1776_$",
                             "typeString": "type(contract MiniMeToken)"
                           }
                         },
@@ -8591,7 +8591,7 @@
                         "nodeType": "FunctionCall",
                         "src": "2566:14:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -8689,7 +8689,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         },
                         {
@@ -8722,7 +8722,7 @@
                         "referencedDeclaration": 344,
                         "src": "2536:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1760",
+                          "typeIdentifier": "t_contract$_MiniMeTokenFactory_$1817",
                           "typeString": "contract MiniMeTokenFactory"
                         }
                       },
@@ -8733,10 +8733,10 @@
                       "lValueRequested": false,
                       "memberName": "createCloneToken",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1759,
+                      "referencedDeclaration": 1816,
                       "src": "2536:29:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1719_$_t_uint256_$_t_string_memory_ptr_$_t_uint8_$_t_string_memory_ptr_$_t_bool_$returns$_t_contract$_MiniMeToken_$1719_$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1776_$_t_uint256_$_t_string_memory_ptr_$_t_uint8_$_t_string_memory_ptr_$_t_bool_$returns$_t_contract$_MiniMeToken_$1776_$",
                         "typeString": "function (contract MiniMeToken,uint256,string memory,uint8,string memory,bool) external returns (contract MiniMeToken)"
                       }
                     },
@@ -8750,7 +8750,7 @@
                     "nodeType": "FunctionCall",
                     "src": "2536:76:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                      "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                       "typeString": "contract MiniMeToken"
                     }
                   },
@@ -8770,7 +8770,7 @@
                         "referencedDeclaration": 445,
                         "src": "2645:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       }
@@ -8778,7 +8778,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       ],
@@ -8791,7 +8791,7 @@
                         "referencedDeclaration": 457,
                         "src": "2622:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -8802,7 +8802,7 @@
                       "lValueRequested": false,
                       "memberName": "changeController",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 690,
+                      "referencedDeclaration": 747,
                       "src": "2622:22:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
@@ -8840,7 +8840,7 @@
                         "referencedDeclaration": 457,
                         "src": "2720:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         }
                       },
@@ -8884,7 +8884,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_MiniMeToken_$1719",
+                          "typeIdentifier": "t_contract$_MiniMeToken_$1776",
                           "typeString": "contract MiniMeToken"
                         },
                         {
@@ -8905,7 +8905,7 @@
                         "referencedDeclaration": 445,
                         "src": "2696:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -8916,10 +8916,10 @@
                       "lValueRequested": false,
                       "memberName": "initialize",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1967,
+                      "referencedDeclaration": 2024,
                       "src": "2696:23:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1719_$_t_bool_$_t_uint256_$returns$__$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_MiniMeToken_$1776_$_t_bool_$_t_uint256_$returns$__$",
                         "typeString": "function (contract MiniMeToken,bool,uint256) external"
                       }
                     },
@@ -8954,7 +8954,7 @@
                         "referencedDeclaration": 445,
                         "src": "2763:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -8975,7 +8975,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -9025,7 +9025,7 @@
                         "referencedDeclaration": 445,
                         "src": "2826:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -9101,7 +9101,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -9136,7 +9136,7 @@
                       "referencedDeclaration": 78,
                       "src": "2805:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_TokenManager_$2652_$_t_uint256_$_t_uint64_$returns$__$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_contract$_TokenManager_$2709_$_t_uint256_$_t_uint64_$returns$__$",
                         "typeString": "function (contract TokenManager,uint256,uint64) external"
                       }
                     },
@@ -9347,7 +9347,7 @@
                         "referencedDeclaration": 389,
                         "src": "2929:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -9358,7 +9358,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "2929:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -9501,7 +9501,7 @@
                         "referencedDeclaration": 389,
                         "src": "3010:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -9512,7 +9512,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "3010:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -9563,7 +9563,7 @@
                         "referencedDeclaration": 445,
                         "src": "3220:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -9581,7 +9581,7 @@
                             "referencedDeclaration": 445,
                             "src": "3234:12:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_TokenManager_$2652",
+                              "typeIdentifier": "t_contract$_TokenManager_$2709",
                               "typeString": "contract TokenManager"
                             }
                           },
@@ -9592,7 +9592,7 @@
                           "lValueRequested": false,
                           "memberName": "BURN_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1801,
+                          "referencedDeclaration": 1858,
                           "src": "3234:22:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -9634,7 +9634,7 @@
                           "typeString": "contract Subscribe"
                         },
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -9655,7 +9655,7 @@
                         "referencedDeclaration": 389,
                         "src": "3188:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -9666,7 +9666,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "3188:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -9701,7 +9701,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3296:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -9717,7 +9717,7 @@
                         "referencedDeclaration": 445,
                         "src": "3302:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -9735,7 +9735,7 @@
                             "referencedDeclaration": 445,
                             "src": "3316:12:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_TokenManager_$2652",
+                              "typeIdentifier": "t_contract$_TokenManager_$2709",
                               "typeString": "contract TokenManager"
                             }
                           },
@@ -9746,7 +9746,7 @@
                           "lValueRequested": false,
                           "memberName": "MINT_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1781,
+                          "referencedDeclaration": 1838,
                           "src": "3316:22:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -9773,7 +9773,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3342:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -9788,7 +9788,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         },
                         {
@@ -9809,7 +9809,7 @@
                         "referencedDeclaration": 389,
                         "src": "3275:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -9820,7 +9820,7 @@
                       "lValueRequested": false,
                       "memberName": "createPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2873,
+                      "referencedDeclaration": 2930,
                       "src": "3275:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$_t_address_$returns$__$",
@@ -9901,7 +9901,7 @@
                         "referencedDeclaration": 445,
                         "src": "3358:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenManager_$2652",
+                          "typeIdentifier": "t_contract$_TokenManager_$2709",
                           "typeString": "contract TokenManager"
                         }
                       },
@@ -9912,7 +9912,7 @@
                       "lValueRequested": false,
                       "memberName": "mint",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1996,
+                      "referencedDeclaration": 2053,
                       "src": "3358:17:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -9963,7 +9963,7 @@
                         "referencedDeclaration": 382,
                         "src": "3492:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -9981,7 +9981,7 @@
                             "referencedDeclaration": 382,
                             "src": "3497:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -9992,7 +9992,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "3497:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -10021,7 +10021,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -10038,7 +10038,7 @@
                         "referencedDeclaration": 389,
                         "src": "3466:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10049,7 +10049,7 @@
                       "lValueRequested": false,
                       "memberName": "grantPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2894,
+                      "referencedDeclaration": 2951,
                       "src": "3466:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -10084,7 +10084,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3551:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -10100,7 +10100,7 @@
                         "referencedDeclaration": 382,
                         "src": "3557:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -10118,7 +10118,7 @@
                             "referencedDeclaration": 382,
                             "src": "3562:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -10129,7 +10129,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "3562:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -10158,7 +10158,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -10175,7 +10175,7 @@
                         "referencedDeclaration": 389,
                         "src": "3530:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10186,7 +10186,7 @@
                       "lValueRequested": false,
                       "memberName": "revokePermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2951,
+                      "referencedDeclaration": 3008,
                       "src": "3530:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -10237,7 +10237,7 @@
                         "referencedDeclaration": 382,
                         "src": "3626:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       },
@@ -10255,7 +10255,7 @@
                             "referencedDeclaration": 382,
                             "src": "3631:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Kernel_$7887",
+                              "typeIdentifier": "t_contract$_Kernel_$7944",
                               "typeString": "contract Kernel"
                             }
                           },
@@ -10266,7 +10266,7 @@
                           "lValueRequested": false,
                           "memberName": "APP_MANAGER_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 7429,
+                          "referencedDeclaration": 7486,
                           "src": "3631:20:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -10295,7 +10295,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         },
                         {
@@ -10312,7 +10312,7 @@
                         "referencedDeclaration": 389,
                         "src": "3595:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10323,7 +10323,7 @@
                       "lValueRequested": false,
                       "memberName": "setPermissionManager",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2971,
+                      "referencedDeclaration": 3028,
                       "src": "3595:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -10374,7 +10374,7 @@
                         "referencedDeclaration": 389,
                         "src": "3691:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10392,7 +10392,7 @@
                             "referencedDeclaration": 389,
                             "src": "3696:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ACL_$3947",
+                              "typeIdentifier": "t_contract$_ACL_$4004",
                               "typeString": "contract ACL"
                             }
                           },
@@ -10403,7 +10403,7 @@
                           "lValueRequested": false,
                           "memberName": "CREATE_PERMISSIONS_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2671,
+                          "referencedDeclaration": 2728,
                           "src": "3696:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -10432,7 +10432,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         },
                         {
@@ -10449,7 +10449,7 @@
                         "referencedDeclaration": 389,
                         "src": "3665:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10460,7 +10460,7 @@
                       "lValueRequested": false,
                       "memberName": "grantPermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2894,
+                      "referencedDeclaration": 2951,
                       "src": "3665:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -10495,7 +10495,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9241,
+                        "referencedDeclaration": 9298,
                         "src": "3757:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Template_$621",
@@ -10511,7 +10511,7 @@
                         "referencedDeclaration": 389,
                         "src": "3763:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10529,7 +10529,7 @@
                             "referencedDeclaration": 389,
                             "src": "3768:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ACL_$3947",
+                              "typeIdentifier": "t_contract$_ACL_$4004",
                               "typeString": "contract ACL"
                             }
                           },
@@ -10540,7 +10540,7 @@
                           "lValueRequested": false,
                           "memberName": "CREATE_PERMISSIONS_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2671,
+                          "referencedDeclaration": 2728,
                           "src": "3768:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -10569,7 +10569,7 @@
                           "typeString": "contract Template"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         },
                         {
@@ -10586,7 +10586,7 @@
                         "referencedDeclaration": 389,
                         "src": "3736:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10597,7 +10597,7 @@
                       "lValueRequested": false,
                       "memberName": "revokePermission",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2951,
+                      "referencedDeclaration": 3008,
                       "src": "3736:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -10648,7 +10648,7 @@
                         "referencedDeclaration": 389,
                         "src": "3839:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10666,7 +10666,7 @@
                             "referencedDeclaration": 389,
                             "src": "3844:3:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ACL_$3947",
+                              "typeIdentifier": "t_contract$_ACL_$4004",
                               "typeString": "contract ACL"
                             }
                           },
@@ -10677,7 +10677,7 @@
                           "lValueRequested": false,
                           "memberName": "CREATE_PERMISSIONS_ROLE",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2671,
+                          "referencedDeclaration": 2728,
                           "src": "3844:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bytes32_$",
@@ -10706,7 +10706,7 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         },
                         {
@@ -10723,7 +10723,7 @@
                         "referencedDeclaration": 389,
                         "src": "3808:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ACL_$3947",
+                          "typeIdentifier": "t_contract$_ACL_$4004",
                           "typeString": "contract ACL"
                         }
                       },
@@ -10734,7 +10734,7 @@
                       "lValueRequested": false,
                       "memberName": "setPermissionManager",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2971,
+                      "referencedDeclaration": 3028,
                       "src": "3808:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_bytes32_$returns$__$",
@@ -10772,7 +10772,7 @@
                         "referencedDeclaration": 382,
                         "src": "3900:3:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       }
@@ -10780,7 +10780,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_Kernel_$7887",
+                          "typeIdentifier": "t_contract$_Kernel_$7944",
                           "typeString": "contract Kernel"
                         }
                       ],
@@ -10855,5 +10855,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-10-24T13:11:30.461Z"
+  "updatedAt": "2019-10-25T14:38:34.721Z"
 }
