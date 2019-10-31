@@ -47,6 +47,7 @@
 		"publish:minor": "aragon apm publish minor --files dist --skip-confirmation",
 		"publish:major": "aragon apm publish major --files dist --skip-confirmation",
 		"deploy:template": "aragon deploy Template --init @ARAGON_ENS",
+		"build:gopkg": "solc @aragon=$(pwd)/node_modules/@aragon --abi contracts/Subscribe.sol -o build --overwrite && abigen --abi=./build/Subscribe.abi --pkg=subscribe --out=go/Subscribe.go && solc @aragon=$(pwd)/node_modules/@aragon --bin contracts/Subscribe.sol -o build --overwrite && abigen --bin=./build/Subscribe.bin --abi=./build/Subscribe.abi --pkg=subscribe --out=go/Subscribe.go",
 		"versions": "aragon apm versions",
 		"clean": "rm -rf build && rm -rf dist",
 		"abi:extract": "truffle-extract --output abi/ --keys abi",
