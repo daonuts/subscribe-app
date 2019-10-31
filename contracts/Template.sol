@@ -18,6 +18,7 @@ import "@aragon/os/contracts/apm/APMNamehash.sol";
 
 import "@aragon/apps-token-manager/contracts/TokenManager.sol";
 import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@daonuts/token/contracts/Token.sol";
 
 import "./Subscribe.sol";
 
@@ -51,14 +52,14 @@ contract TemplateBase is APMNamehash {
 
 
 contract Template is TemplateBase {
-    MiniMeTokenFactory tokenFactory;
+    /* MiniMeTokenFactory tokenFactory; */
 
     uint constant TOKEN_UNIT = 10 ** 18;
     uint64 constant PCT = 10 ** 16;
     address constant ANY_ENTITY = address(-1);
 
     constructor(ENS ens) TemplateBase(DAOFactory(0), ens) public {
-        tokenFactory = new MiniMeTokenFactory();
+        /* tokenFactory = new MiniMeTokenFactory(); */
     }
 
     function newInstance() public {
@@ -73,11 +74,12 @@ contract Template is TemplateBase {
         Subscribe subscribe = Subscribe(dao.newAppInstance(subscribeAppId, latestVersionAppBase(subscribeAppId)));
         TokenManager tokenManager = TokenManager(dao.newAppInstance(tokenManagerAppId, latestVersionAppBase(tokenManagerAppId)));
 
-        MiniMeToken token = tokenFactory.createCloneToken(MiniMeToken(0), 0, "Donut", 18, "DONUT", true);
+        /* MiniMeToken token = tokenFactory.createCloneToken(MiniMeToken(0), 0, "Donut", 18, "DONUT", true); */
+        Token token = new Token("Currency", 18, "CURRENCY", true);
         token.changeController(tokenManager);
 
         // Initialize apps
-        tokenManager.initialize(token, true, 0);
+        tokenManager.initialize(MiniMeToken(token), true, 0);
         emit InstalledApp(tokenManager, tokenManagerAppId);
         subscribe.initialize(tokenManager, 1 * TOKEN_UNIT, 30 days);
         emit InstalledApp(subscribe, subscribeAppId);
