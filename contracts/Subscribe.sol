@@ -29,7 +29,9 @@ contract Subscribe is IForwarder, AragonApp {
         initialized();
         tokenManager = _tokenManager;
         price = _price;
+        emit PriceChange(price);
         duration = _duration;
+        emit DurationChange(duration);
     }
 
     /* function subscribe(address _subscriber, uint16 _units) authP(SUBSCRIBE_ROLE, arr(_subscriber)) public { */

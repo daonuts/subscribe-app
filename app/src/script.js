@@ -14,6 +14,14 @@ api.store(
         account = event.returnValues.account
         newState = state
         break
+      case 'PriceChange':
+        console.log(event)
+        newState = { ...state, price: event.returnValues.price }
+        break
+      case 'DurationChange':
+        console.log(event)
+        newState = { ...state, duration: event.returnValues.duration }
+        break
       case 'Subscribe':
         console.log(event)
         const subscription = {
@@ -30,11 +38,14 @@ api.store(
     return newState
   },
   {
-    init: async function(){
+    init: async function(cachedState){
       return {
+        price: 0,
+        duration: 0,
         subscriptions: [],
-        price: await api.call("price").toPromise(),
-        duration: await api.call("duration").toPromise()
+        ...cachedState//,
+        // price: await api.call("price").toPromise(),
+        // duration: await api.call("duration").toPromise()
       }
     }
   }
